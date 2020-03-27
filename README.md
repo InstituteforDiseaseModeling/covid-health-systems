@@ -1,39 +1,83 @@
-# health-systems
+# covid-health-systems
 
-Welcome to ProjectTemplate!
+Welcome to IDM's COVID-19 Health Systems model!
 
-This file introduces you to ProjectTemplate, but you should eventually replace
-the contents of this file with an introduction to your project. People who
-work with your data in the future will thank you for it, including your future
-self.
 
-ProjectTemplate is an R package that helps you organize your statistical
-analysis projects. Since you're reading this file, we'll assume that you've
-already called `create.project()` to set up this project and all of its
-contents.
+## Setup
 
-To load your new project, you'll first need to `setwd()` into the directory
-where this README file is located. Then you need to run the following two
-lines of R code:
+### Pre Requisites
 
-	library('ProjectTemplate')
-	load.project()
+1. Access to [Simul8] Professional
+2. R 3.6+
+3. (Optional) RStudio
 
-After you enter the second line of code, you'll see a series of automated
-messages as ProjectTemplate goes about doing its work. This work involves:
-* Reading in the global configuration file contained in `config`.
-* Loading any R packages you listed in the configuration file.
-* Reading in any datasets stored in `data` or `cache`.
-* Preprocessing your data using the files in the `munge` directory.
+### R Project Setup
 
-Once that's done, you can execute any code you'd like. For every analysis
-you create, we'd recommend putting a separate file in the `src` directory.
-If the files start with the two lines mentioned above:
+1. Install [ProjectTemplate] for loading the project:
 
-	library('ProjectTemplate')
-	load.project()
+   ```R
+   install.packages("ProjectTemplate")
+   ```
+2. Install the packages required to run the analysis scripts:
 
-You'll have access to all of your data, already fully preprocessed, and
-all of the libraries you want to use.
+   ```R
+   install.packages(c('here', 'ggplot2', 'plyr', 'dplyr', 'scales', 'readxl', 'reshape2', 'gridExtra', 'RColorBrewer', 'viridis'))
+   ```
 
-For more details about ProjectTemplate, see http://projecttemplate.net
+
+## Project Architecture
+
+The project structure is uses a variation of the [ProjectTemplate]
+project structure.
+
+```bash
+├── config/
+│   └── global.dcf	# Default configuration for the project
+├── data/			# Input data
+├── docs/			# Additional project documentation
+├── lib/
+│   ├── globals.R 	# Project-level configuration and variables
+│   └── helpers.R	# Project-level functions
+├── logs/			# Logs
+├── model/			# Simul8 Models
+├── output/			# Simul8 Outputs
+│   ├── example/	## Sample Simul8 output
+├── reports/		# Reports, graphs, plots, and any other re-generateable documents
+├── src/			# Analysis R scripts
+```
+
+## Getting Started
+
+[Running the model]
+
+[Analysis]
+
+
+## Contributing
+
+See our [contributing guide].
+
+
+## Authors
+
+* Brittany Hagedorn
+
+---
+
+![Creative Commons License][license-img]
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike
+4.0 International License][license].
+
+
+<!-- References -->
+[ProjectTemplate]: http://projecttemplate.net
+[Simul8]: https://www.simul8.com/
+
+[contributing guide]: ./CONTRIBUTING.md
+[Running the model]: ./docs/model.md
+[analysis]: ./docs/analysis.md
+
+[license]: ./LICENSE
+[license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+
