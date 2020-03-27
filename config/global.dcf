@@ -1,15 +1,15 @@
 version: 0.9.0
-data_loading: TRUE
+data_loading: FALSE
 data_loading_header: TRUE
 data_ignore:
 cache_loading: TRUE
 recursive_loading: FALSE
 munging: TRUE
-logging: FALSE
+logging: TRUE
 logging_level: INFO
-load_libraries: FALSE
-libraries: reshape2, plyr, tidyverse, stringr, lubridate
-as_factors: TRUE
+load_libraries: TRUE
+libraries: here, ggplot2, plyr, dplyr, scales, readxl, reshape2, gridExtra, RColorBrewer, viridis 
+as_factors: FALSE
 tables_type: tibble
 attach_internal_libraries: FALSE
 cache_loaded_data:  TRUE

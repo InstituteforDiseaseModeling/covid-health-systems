@@ -7,4 +7,19 @@
 .idea
 .vscode
 
-/output/*.CSV
+/output/**
+!output/README.md
+!/output/example/*
+
+/cache/**
+!/cache/README.md
+/reports/**
+!/reports/README.md
+/logs/**
+!/logs/README.md
+
+# Backup Files
+*.swp
+*.bk8
+~*
+

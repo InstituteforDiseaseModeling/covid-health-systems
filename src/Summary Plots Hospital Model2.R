@@ -1,14 +1,5 @@
-library(ggplot2)
-library(plyr)
-library(dplyr)
-library(scales)
-library(readxl)
-library(reshape2)
-library(gridExtra)
-library(RColorBrewer)
-
-#Set working directory to current location if needed?
-#setwd()
+library(ProjectTemplate)
+load.project()
 
 #This is used to source which input files we are referring to. 
 #Possibly no longer necessary if everything is on the server.

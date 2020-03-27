@@ -1,4 +1,4 @@
-# hcs
+# health-systems
 
 Welcome to ProjectTemplate!
 

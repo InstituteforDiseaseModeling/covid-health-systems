@@ -1,14 +1,7 @@
-library(ggplot2)
-library(plyr)
-library(dplyr)
-library(scales)
-library(readxl)
-library(reshape2)
-library(gridExtra)
-library(RColorBrewer)
-library(viridis)
+library(ProjectTemplate)
+load.project()
 
-DOALLTHETHINGS <- function(){
+DOALLTHETHINGS <- function(INPUTSET=""){
   
   #Remove previously loaded data
   remove(ASSUMPTIONS)
@@ -290,7 +283,7 @@ QTIME$Scenario <- factor(QTIME$Scenario,ordered=TRUE,levels=list_ordered)
 QTIME$Description <- paste(round(QTIME$DaystomaxMean,1)," (",round(QTIME$dtm_q1,1),", ",round(QTIME$dtm_q2,1),")",sep="")
 write.csv(QTIME,paste(resultsadjust,SETLABEL,"Queue Time.csv",sep=""))
 
-DS <- data.frame(read_xlsx("../Input Tables/Book1.xlsx"))
+DS <- data.frame(read_xlsx(here("data/Book1.xlsx")))
 
 InpatientMax$AAC_beds <- as.numeric(InpatientMax$AAC_beds)
 InpatientMax$ICU_beds <- as.numeric(InpatientMax$ICU_beds)

@@ -1,4 +1,5 @@
-* text eol=lf:wq:
+* text eol=lf
 *.S8 binary
 *.pdf binary
+*.xs8 text diff=xml
 
