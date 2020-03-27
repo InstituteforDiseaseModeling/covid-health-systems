@@ -236,17 +236,17 @@ scale_factor <- 1
 locationadjust <- "../New Capacity Sweep/Moderate Social Distancing/"
 SETLABEL <- "MSD"
 INPUTSET <- "321_CapacitySweepOnline_BL"
-DOALLTHETHINGS()
+DOALLTHETHINGS(INPUTSET=INPUTSET)
 
 locationadjust <- "../New Capacity Sweep/School Closure 20 Weeks/"
 SETLABEL <- "SC20"
 INPUTSET <- "325_BESTRUN"
-DOALLTHETHINGS()
+DOALLTHETHINGS(INPUTSET=INPUTSET)
 
 locationadjust <- "../New Capacity Sweep/School Closure 2 Weeks/"
 SETLABEL <- "SC_2W"
 INPUTSET <- ""
-DOALLTHETHINGS()
+DOALLTHETHINGS(INPUTSET=INPUTSET)
 
 INPTMAX1 <- read.csv(paste(resultsadjust,"CapacitySweep_BL","_DaystoInptMax.csv"))
 INPTMAX2 <- read.csv(paste(resultsadjust,"SocialDistancing_60","_DaystoInptMax.csv"))
