@@ -42012,9 +42012,9 @@
       </Variable>
       <Variable Name="ss Care Seeking Delay" ID="7" Type="4">
          <Cols>11</Cols>
-         <Rows>12</Rows>
+         <Rows>9</Rows>
          <RetainFormat>Yes</RetainFormat>
-         <SpreadFormat>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AAAIQAoABCACAAEAFgAYAEFjdWl0eSAxID0gQXN5bXB0b21hdGljLgQkAwABABYAHABBY3VpdHkgMiA9IEhvbWUgY2FyZSBuZWVkZWQuBCoEAAEAFgAiAEFjdWl0eSAzID0gT3V0cGF0aWVudCBjYXJlIG5lZWRlZC4EKgUAAQAWACIAQWN1aXR5IDQgPSBIb3NwaXRhbGl6YXRpb24gbmVlZGVkLgQjBgABABYAGwBBY3VpdHkgNSA9IElDVSBjYXJlIG5lZWRlZC4EIwgAAQAWABsAQ2FyZSBzZWVraW5nIGRlbGF5IGluIGRheXMuAQkAAQAWAAReCgABABYAVgBOb3RlOiBQYXRpZW50cyB3aG8gd2lsbCBldmVudHVhbGx5IGhhdmUgc2V2ZXJlIGRpc2Vhc2UgdGVuZCB0byBuZWVkIGNhcmUgbW9yZSBxdWlja2x5LgRqCwABABYAYgBUaHVzLCBmb3IgZXhhbXBlLCBwYXRpZW50cyB3aG8gYXJlIGFjdWl0eSBmaXZlIGhhdmUgc2hvcnRlciBkZWxheXMgdGhhbiBwYXRpZW50cyB3aXRoIGFjdWl0eSBmb3VyLh0PAwsAAQAAAAEACwALAAEBPgo2AgAAAAAAAAAAoGQAZACZJgkK</SpreadFormat>
+         <SpreadFormat>CQAFBQDuBAAAAADvFAAAAAAAAAAAAAD///////////H/PRIAAAAAXVcqMDgAAAAAAAEAWAIxFMgAAAD/f5ABAAAAAAAABUFyaWFsMRTIAAAA/3+8AgAAAAAAAAVBcmlhbDEUyAACAP9/kAEAAAAAAAAFQXJpYWwxFMgAAgD/f7wCAAAAAAAABUFyaWFsMRTIAAAA/3+QAQAAAAAAAAVBcmlhbB4aBQAXIiQiIywjIzBfKTtcKCIkIiMsIyMwXCkeHwYAHCIkIiMsIyMwXyk7W1JlZF1cKCIkIiMsIyMwXCkeIAcAHSIkIiMsIyMwLjAwXyk7XCgiJCIjLCMjMC4wMFwpHiUIACIiJCIjLCMjMC4wMF8pO1tSZWRdXCgiJCIjLCMjMC4wMFwpHjUqADJfKCIkIiogIywjIzBfKTtfKCIkIiogXCgjLCMjMFwpO18oIiQiKiAiLSJfKTtfKEBfKR4sKQApXygqICMsIyMwXyk7XygqIFwoIywjIzBcKTtfKCogIi0iXyk7XyhAXykePSwAOl8oIiQiKiAjLCMjMC4wMF8pO18oIiQiKiBcKCMsIyMwLjAwXCk7XygiJCIqICItIj8/Xyk7XyhAXykeNCsAMV8oKiAjLCMjMC4wMF8pO18oKiBcKCMsIyMwLjAwXCk7XygqICItIj8/Xyk7XyhAXykeGzIAGCKjIiMsIyMwO1tSZWRdXC0ioyIjLCMjMB4hMwAeIqMiIywjIzAuMDA7W1JlZF1cLSKjIiMsIyMwLjAw7QUAAAAAAOwDAAAA4BQAAAAA9f8gAMAgAAAAAAAAAAAAAOAUAQAAAPX/IMTAIAAAAAAAAAAAAADgFAEAAAD1/yDEwCAAAAAAAAAAAAAA4BQCAAAA9f8gxMAgAAAAAAAAAAAAAOAUAgAAAPX/IMTAIAAAAAAAAAAAAADgFAAAAAD1/yDEwCAAAAAAAAAAAAAA4BQAAAAA9f8gxMAgAAAAAAAAAAAAAOAUAAAAAPX/IMTAIAAAAAAAAAAAAADgFAAAAAD1/yDEwCAAAAAAAAAAAAAA4BQAAAAA9f8gxMAgAAAAAAAAAAAAAOAUAAAAAPX/IMTAIAAAAAAAAAAAAADgFAAAAAD1/yDEwCAAAAAAAAAAAAAA4BQAAAAA9f8gxMAgAAAAAAAAAAAAAOAUAAAAAPX/IMTAIAAAAAAAAAAAAADgFAAAAAD1/yDEwCAAAAAAAAAAAAAA4BQAAAAAAQAgAMAgAAAAAAAAAAAAAOAUBQAzAPX/IMjAIAAAAAAAAAAAAADgFAUAMgD1/yDIwCAAAAAAAAAAAAAA4BQFAAwA9f8gyMAgAAAAAAAAAAAAAOAUBQAKAPX/IMjAIAAAAAAAAAAAAADgFAUADQD1/yDIwCAAAAAAAAAAAAAA4BQEAAAA8P8SSMAgAAAAAAAAAAAAAOAUAAAAAAEAIECJIAEAAAAAAAAAAADgFAAAAAABACBgiSBBEAkQCAAAAAAA4BQAAAAAAQAgYKogQRABEAAAAAAAAOAUAAAAAAEAIGCqIEEQQRAABAAAAACFCQAABlNoZWV0MQoJAAUQAA0BAAxkABEAABD8qfHSTWJQP18BACoAACsBACUBAP8AjAEAAQCBwQQUAwImQRUIB1BhZ2UgJlCDAACEAAAmAAAAAAAA6D8nAAAAAAAA6D8oAAAAAAAA8D8pAAAAAAAA8D+hIgEAZAABAAEAAQAGAAAAAAAAAAAAAADgPwAAAAAAAOA/AQAAAAAJAAAACwAAAPcYkgDvzP///wDAwMAA/wD/PwAAAAAAAAAA8hAAAAAAAAAAAAAAAAAAAP//9hUAFQAVAP8AQAbzCQoABkE1IE1hePMJCQAGQTUgTWlu8wkIAAZBNCBNYXjzCQcABkE0IE1pbvMJBgAGQTMgTWF48wkFAAZBMyBNaW7zCQQABkEyIE1hePMJAwAGQTIgTWlu8wkCAAZBMSBNYXjzCQEABkExIE1pbvMQAAANQ2FyZSBGYWNpbGl0eX0AAAAAbQwWAAAAAAB9AQD/ACYJFgAAAAAACAAAAAALAP8AAAAAAEABDwAIAQAAAAAA/wAAAAAAQAEPAAgCAAEAAgD/AAAAAABAAQ8ACAMAAQACAP8AAAAAAEABDwAIBAABAAIA/wAAAAAAQAEPAAgFAAEAAgD/AAAAAABAAQ8ACAYAAQACAP8AAAAAAEABDwAICAABAAIA/wAAAAAAQAEPAAQQAAAAABcACABBbnkgQ2FyZb1CAAABABgAAAAAABgAAAAAABgAAAAIQBgAAAAUQBgAAAAAQBgAAAAQQBgAAAAAQBgAAAAIQBgAAADwPxkAAAAIQAoABCACAAEAFgAYAEFjdWl0eSAxID0gQXN5bXB0b21hdGljLgQkAwABABYAHABBY3VpdHkgMiA9IEhvbWUgY2FyZSBuZWVkZWQuBCoEAAEAFgAiAEFjdWl0eSAzID0gT3V0cGF0aWVudCBjYXJlIG5lZWRlZC4EKgUAAQAWACIAQWN1aXR5IDQgPSBIb3NwaXRhbGl6YXRpb24gbmVlZGVkLgQjBgABABYAGwBBY3VpdHkgNSA9IElDVSBjYXJlIG5lZWRlZC4EIwgAAQAWABsAQ2FyZSBzZWVraW5nIGRlbGF5IGluIGRheXMuHQ8DAAABAAAAAQAAAAAAAQo+CjYCAAAAAAAAAACgZABkAJkmCQo=</SpreadFormat>
          <Cell Type="2" Row="1" Col="1">Any Care</Cell>
          <Cell Type="1" Row="1" Col="2">0</Cell>
          <Cell Type="1" Row="1" Col="3">0</Cell>
@@ -42032,8 +42032,6 @@
          <Cell Type="2" Row="6" Col="2">Acuity 4 = Hospitalization needed.</Cell>
          <Cell Type="2" Row="7" Col="2">Acuity 5 = ICU care needed.</Cell>
          <Cell Type="2" Row="9" Col="2">Care seeking delay in days.</Cell>
-         <Cell Type="2" Row="11" Col="2">Note: Patients who will eventually have severe disease tend to need care more quickly.</Cell>
-         <Cell Type="2" Row="12" Col="2">Thus, for exampe, patients who are acuity five have shorter delays than patients with acuity four.</Cell>
       </Variable>
       <Variable Name="ss Care Seeking Location" ID="8" Type="4">
          <Cols>6</Cols>
@@ -42070,11 +42068,11 @@
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="gv NumHospitals" ID="10" Type="1">
-         <Value>1</Value>
+         <Value>10</Value>
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="LOOP I" ID="11" Type="1">
-         <Value>2</Value>
+         <Value>4</Value>
          <ResetValue>1</ResetValue>
       </Variable>
       <Variable Name="ss Epi Curve" ID="12" Type="4">
@@ -45427,7 +45425,7 @@
          <RetainFormat>Yes</RetainFormat>
       </Variable>
       <Variable Name="Button" ID="15" Type="2">
-         <Value>Hospital Setup:Beds and typical occupancy</Value>
+         <Value>Select Outbreak Scenarios:NEXT</Value>
       </Variable>
       <Variable Name="gv Epi Curve" ID="16" Type="1">
          <Value>4</Value>
@@ -45494,7 +45492,7 @@
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="TRACKER OPEN" ID="28" Type="1">
-         <Value>2</Value>
+         <Value>3</Value>
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="ss R Inpt Q Contents End Of Day" ID="29" Type="4">
@@ -47299,7 +47297,7 @@
          <ResetValue>NOCHANGE</ResetValue>
       </Variable>
       <Variable Name="ResultsName" ID="42" Type="2">
-         <Value>326_DemoModel</Value>
+         <Value>DemoModelRun1</Value>
          <ResetValue>NOCHANGE</ResetValue>
       </Variable>
       <Variable Name="gv ICU Mortality" ID="43" Type="1">
@@ -47327,18 +47325,18 @@
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="LOOP J" ID="49" Type="1">
-         <Value>1</Value>
+         <Value>11</Value>
       </Variable>
       <Variable Name="ss ScenarioManager" ID="50" Type="4">
          <Cols>2</Cols>
          <Rows>22</Rows>
          <RetainFormat>Yes</RetainFormat>
          <SpreadFormat>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</SpreadFormat>
-         <Cell Type="1" Row="1" Col="1">4</Cell>
+         <Cell Type="1" Row="1" Col="1">7</Cell>
          <Cell Type="1" Row="1" Col="2">1</Cell>
-         <Cell Type="1" Row="2" Col="1">5</Cell>
+         <Cell Type="1" Row="2" Col="1">8</Cell>
          <Cell Type="1" Row="2" Col="2">1</Cell>
-         <Cell Type="1" Row="3" Col="1">6</Cell>
+         <Cell Type="1" Row="3" Col="1">9</Cell>
          <Cell Type="1" Row="3" Col="2">1</Cell>
       </Variable>
       <Variable Name="gv NumTrials" ID="51" Type="1">
@@ -49318,10 +49316,10 @@
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="gv Epi2" ID="71" Type="1">
-         <Value>1</Value>
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="gv Epi3" ID="72" Type="1">
+         <Value>1</Value>
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="gv Epi4" ID="73" Type="1">
@@ -49331,6 +49329,7 @@
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="gv Unlimited" ID="75" Type="1">
+         <Value>1</Value>
          <ResetValue>-2147483648</ResetValue>
       </Variable>
       <Variable Name="ss Internal Hospital Capacity List" ID="76" Type="4">
@@ -50177,371 +50176,372 @@
          <VL Pos="4">    SET lv Count  =  TRACKER RUN+1</VL>
          <VL Pos="5">    Display Text    "Run Number "+[lv Count] ,  "" ,  1100 ,  100</VL>
          <VL Pos="6">    Display Text    "Out of "+[TRACKER TOTALRUNSMAX] ,  "" ,  1100 ,  120</VL>
-         <VL Pos="7">  IF TRACKER RUNNING_SCENARIOS  =  "Yes"</VL>
-         <VL Pos="8">    IF gv Select RunSweep  =  "Yes"</VL>
-         <VL Pos="9">      SET gv SimWeeks  =  gv SimWeeks</VL>
-         <VL Pos="10">    ELSE</VL>
-         <VL Pos="11">      IF gv SelectWeeksOptions  =  1</VL>
-         <VL Pos="12">        SET gv SimWeeks  =  12</VL>
-         <VL Pos="13">      ELSE IF gv SelectWeeksOptions  =  2</VL>
-         <VL Pos="14">        IF ss Epi Curve[gv Epi Curve,[[7*16]+1]]  &gt;  0</VL>
-         <VL Pos="15">          SET gv SimWeeks  =  16</VL>
-         <VL Pos="16">        ELSE</VL>
-         <VL Pos="17">          SET gv SimWeeks  =  12</VL>
-         <VL Pos="18">          Display Message    "You have selected a run duration of 16 weeks, but there is not enough data in the epi curves to do so. The simulation has been set to run for 12 weeks."</VL>
-         <VL Pos="19">      ELSE IF gv SelectWeeksOptions  =  3</VL>
-         <VL Pos="20">        IF ss Epi Curve[gv Epi Curve,[[7*20]+1]]  &gt;  0</VL>
-         <VL Pos="21">          SET gv SimWeeks  =  20</VL>
-         <VL Pos="22">        ELSE IF ss Epi Curve[gv Epi Curve,[[7*16]+1]]  &gt;  0</VL>
-         <VL Pos="23">          SET gv SimWeeks  =  16</VL>
-         <VL Pos="24">          Display Message    "You have selected a run duration of 20 weeks, but there is not enough data in the epi curves to do so. The simulation has been set to run for 16 weeks."</VL>
-         <VL Pos="25">        ELSE</VL>
-         <VL Pos="26">          SET gv SimWeeks  =  12</VL>
-         <VL Pos="27">          Display Message    "You have selected a run duration of 20 weeks, but there is not enough data in the epi curves to do so. The simulation has been set to run for 12 weeks."</VL>
-         <VL Pos="28">  SET Results Collection Period  =  [[gv SimWeeks*60]*24]*7</VL>
-         <VL Pos="29">  SET gv WeekNum  =  0</VL>
-         <VL Pos="30">  SET gv DayNum  =  0</VL>
-         <VL Pos="31">  'Find out which day to start the model, based on the pre-set gv StartCount = cummulative number of infections</VL>
-         <VL Pos="32">  SET lv Count  =  2</VL>
-         <VL Pos="33">  UNTIL ss Epi Curve[gv Epi Curve+1,lv Count]  &gt;  gv StartCount</VL>
-         <VL Pos="34">    SET lv Count  =  lv Count+1</VL>
-         <VL Pos="35">  SET gv StartRow  =  lv Count-1</VL>
-         <VL Pos="36">  'Count the number of age groups</VL>
-         <VL Pos="37">  SET LOOP I  =  1</VL>
-         <VL Pos="38">  UNTIL ss Acuity[1,LOOP I]  =  ""</VL>
-         <VL Pos="39">    SET LOOP I  =  LOOP I+1</VL>
-         <VL Pos="40">  SET lv NumAgeGroups  =  LOOP I-1</VL>
-         <VL Pos="41">  'These will get updated based on the patient's characteristics</VL>
-         <VL Pos="42">  Set Number of Columns in Probability Profile    dst Acuity by Age_g1 ,  5</VL>
-         <VL Pos="43">  Set Number of Columns in Probability Profile    dst Acuity by Age_g2 ,  5</VL>
-         <VL Pos="44">  Set Number of Columns in Probability Profile    dst Acuity by Age_g3 ,  5</VL>
-         <VL Pos="45">  Set Number of Columns in Probability Profile    dst Acuity by Age_g4 ,  5</VL>
-         <VL Pos="46">  Set Number of Columns in Probability Profile    dst Acuity by Age_g5 ,  5</VL>
-         <VL Pos="47">  Set Number of Columns in Probability Profile    dst Care Type Sought ,  3</VL>
-         <VL Pos="48">  Set Number of Columns in Probability Profile    dst Mortality Binary ,  2</VL>
-         <VL Pos="49">  Set Number of Columns in Probability Profile    dst Age Group ,  lv NumAgeGroups</VL>
-         <VL Pos="50">  'Set up acuity profiles</VL>
-         <VL Pos="51">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  1 ,  1 ,  ss Acuity[2,1]*100</VL>
-         <VL Pos="52">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  2 ,  2 ,  ss Acuity[3,1]*100</VL>
-         <VL Pos="53">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  3 ,  3 ,  ss Acuity[4,1]*100</VL>
-         <VL Pos="54">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  4 ,  4 ,  ss Acuity[5,1]*100</VL>
-         <VL Pos="55">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  5 ,  5 ,  ss Acuity[6,1]*100</VL>
-         <VL Pos="56">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  1 ,  1 ,  ss Acuity[2,2]*100</VL>
-         <VL Pos="57">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  2 ,  2 ,  ss Acuity[3,2]*100</VL>
-         <VL Pos="58">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  3 ,  3 ,  ss Acuity[4,2]*100</VL>
-         <VL Pos="59">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  4 ,  4 ,  ss Acuity[5,2]*100</VL>
-         <VL Pos="60">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  5 ,  5 ,  ss Acuity[6,2]*100</VL>
-         <VL Pos="61">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  1 ,  1 ,  ss Acuity[2,3]*100</VL>
-         <VL Pos="62">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  2 ,  2 ,  ss Acuity[3,3]*100</VL>
-         <VL Pos="63">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  3 ,  3 ,  ss Acuity[4,3]*100</VL>
-         <VL Pos="64">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  4 ,  4 ,  ss Acuity[5,3]*100</VL>
-         <VL Pos="65">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  5 ,  5 ,  ss Acuity[6,3]*100</VL>
-         <VL Pos="66">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  1 ,  1 ,  ss Acuity[2,4]*100</VL>
-         <VL Pos="67">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  2 ,  2 ,  ss Acuity[3,4]*100</VL>
-         <VL Pos="68">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  3 ,  3 ,  ss Acuity[4,4]*100</VL>
-         <VL Pos="69">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  4 ,  4 ,  ss Acuity[5,4]*100</VL>
-         <VL Pos="70">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  5 ,  5 ,  ss Acuity[6,4]*100</VL>
-         <VL Pos="71">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  1 ,  1 ,  ss Acuity[2,5]*100</VL>
-         <VL Pos="72">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  2 ,  2 ,  ss Acuity[3,5]*100</VL>
-         <VL Pos="73">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  3 ,  3 ,  ss Acuity[4,5]*100</VL>
-         <VL Pos="74">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  4 ,  4 ,  ss Acuity[5,5]*100</VL>
-         <VL Pos="75">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  5 ,  5 ,  ss Acuity[6,5]*100</VL>
-         <VL Pos="76">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  1 ,  1 ,  ss Acuity[2,6]*100</VL>
-         <VL Pos="77">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  2 ,  2 ,  ss Acuity[3,6]*100</VL>
-         <VL Pos="78">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  3 ,  3 ,  ss Acuity[4,6]*100</VL>
-         <VL Pos="79">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  4 ,  4 ,  ss Acuity[5,6]*100</VL>
-         <VL Pos="80">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  5 ,  5 ,  ss Acuity[6,6]*100</VL>
-         <VL Pos="81">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob ICU ,  1 ,  1 ,  ss Discharge Delay Parameters[1,1]*100</VL>
-         <VL Pos="82">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob ICU ,  2 ,  2 ,  100-[ss Discharge Delay Parameters[1,1]*100]</VL>
-         <VL Pos="83">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob MedSurg ,  1 ,  1 ,  ss Discharge Delay Parameters[4,1]*100</VL>
-         <VL Pos="84">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob MedSurg ,  2 ,  2 ,  100-[ss Discharge Delay Parameters[4,1]*100]</VL>
-         <VL Pos="85">  '' Count the Number of Groups before they are deleted</VL>
-         <VL Pos="86">  SET LOOP I  =  1</VL>
-         <VL Pos="87">  UNTIL iss Speed[1,LOOP I]  =  ""</VL>
-         <VL Pos="88">    SET LOOP I  =  LOOP I+1</VL>
-         <VL Pos="89">  SET lv NumGroups  =  LOOP I-1</VL>
-         <VL Pos="90">  Clear Sheet    iss Speed[1,1]</VL>
-         <VL Pos="91">  'Count the number of hospitals</VL>
-         <VL Pos="92">  SET LOOP I  =  1</VL>
-         <VL Pos="93">  UNTIL ss Hospitals[2,LOOP I]  =  ""</VL>
-         <VL Pos="94">    SET LOOP I  =  LOOP I+1</VL>
-         <VL Pos="95">  SET gv NumHospitals  =  LOOP I-1</VL>
-         <VL Pos="96">  'If we are doing a capacity sweep, ignore the hospitals data input sheet.</VL>
-         <VL Pos="97">  IF gv Select RunSweep  =  "Yes"</VL>
-         <VL Pos="98">    SET gv NumHospitals  =  1</VL>
-         <VL Pos="99">  'This is to set up the hospital catchment population distribution</VL>
-         <VL Pos="100">  Set Number of Columns in Probability Profile    dst Hospital Catchment Pop ,  gv NumHospitals</VL>
-         <VL Pos="101">  SET lv TotalPop  =  0</VL>
-         <VL Pos="102">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
-         <VL Pos="103">    SET lv TotalPop  =  lv TotalPop+ss Hospitals[4,LOOP I]</VL>
-         <VL Pos="104">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
-         <VL Pos="105">    Set Prob-Profile Distrib Column    dst Hospital Catchment Pop ,  LOOP I ,  LOOP I ,  [[ss Hospitals[4,LOOP I]/lv TotalPop]*100]</VL>
-         <VL Pos="106">  'Create speed lists</VL>
-         <VL Pos="107">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
-         <VL Pos="108">    SET iss Speed[1,LOOP I]  =  "Q H"+LOOP I</VL>
-         <VL Pos="109">    SET iss Speed[3,LOOP I]  =  ["H"+LOOP I]+" MedSurg"</VL>
-         <VL Pos="110">    SET iss Speed[5,LOOP I]  =  ["H"+LOOP I]+" ICU"</VL>
-         <VL Pos="111">    SET iss Speed[9,LOOP I]  =  "Q ICU"+LOOP I</VL>
-         <VL Pos="112">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv SimWeeks</VL>
-         <VL Pos="113">    IF ss Epi Curve[gv Epi Curve+1,1]  =  "Daily"</VL>
-         <VL Pos="114">      SET lv Count  =  0</VL>
-         <VL Pos="115">      LOOP 1 &gt;&gt;&gt; LOOP J &gt;&gt;&gt; 7</VL>
-         <VL Pos="116">        SET lv Count  =  lv Count+ss Epi Curve[gv Epi Curve+1,[[[[LOOP I-1]*7]+gv StartRow]+[LOOP J-1]]]</VL>
-         <VL Pos="117">      IF lv Count  &gt;  lv Max</VL>
-         <VL Pos="118">        SET lv Max  =  lv Count</VL>
-         <VL Pos="119">    ELSE IF ss Epi Curve[gv Epi Curve+1,1]  =  "Weekly"</VL>
-         <VL Pos="120">      IF ss Epi Curve[gv Epi Curve+1,[gv StartRow+[LOOP I-1]]]  &gt;  lv Max</VL>
-         <VL Pos="121">        SET lv Max  =  ss Epi Curve[gv Epi Curve+1,[gv StartRow+[LOOP I-1]]]</VL>
-         <VL Pos="122">    ELSE</VL>
-         <VL Pos="123">      '' There is a Time Period that differs from Daily or Weekly</VL>
-         <VL Pos="124">      Display Message    "There is an error in the epi curve setup. Please contact support at covid@idmod.org and tell them that this is the error message."</VL>
-         <VL Pos="125">  SET lv NumCopies  =  ROUND[[lv Max/20000]+1]+1</VL>
-         <VL Pos="126">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv NumCopies</VL>
-         <VL Pos="127">    SET iss Speed[7,LOOP I]  =  "Rt Care Seeking Delay "+LOOP I</VL>
-         <VL Pos="128">    ''SET iss Speed[9,LOOP I]  =  "LOS Outpatient "+LOOP I</VL>
-         <VL Pos="129">  Add speed list location    iss Speed[1,1]</VL>
-         <VL Pos="130">  Add speed list location    iss Speed[3,1]</VL>
-         <VL Pos="131">  Add speed list location    iss Speed[5,1]</VL>
-         <VL Pos="132">  Add speed list location    iss Speed[7,1]</VL>
-         <VL Pos="133">  Add speed list location    iss Speed[9,1]</VL>
-         <VL Pos="134">  Refresh Object Speed Lists</VL>
-         <VL Pos="135">  'Erase copied activities and queues</VL>
-         <VL Pos="136">  LOOPOBJECTS all STORAGE BINS with gv QRef</VL>
-         <VL Pos="137">    IF gv QRef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
-         <VL Pos="138">      Erase Simulation Object    gv QRef</VL>
-         <VL Pos="139">  LOOPOBJECTS all WORK CENTERS with gv ARef</VL>
-         <VL Pos="140">    IF gv ARef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
-         <VL Pos="141">      Erase Simulation Object    gv ARef</VL>
-         <VL Pos="142">  LOOP 2 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv NumGroups</VL>
-         <VL Pos="143">    Erase Group    "A H"+LOOP I</VL>
-         <VL Pos="144">  LOOP 2 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv NumCopies</VL>
-         <VL Pos="145">    'Care Seeking Delay</VL>
-         <VL Pos="146">    Copy Simulation Object    Rt Care Seeking Delay 1 ,  gv ARef</VL>
-         <VL Pos="147">    SET gv ARef.Name  =  "Rt Care Seeking Delay "+LOOP I</VL>
-         <VL Pos="148">    SET gv ARef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
-         <VL Pos="149">    Set Object Location    gv ARef ,  230 ,  335</VL>
-         <VL Pos="150">  'Create copied objects for hospitals</VL>
-         <VL Pos="151">  LOOP 2 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
-         <VL Pos="152">    'Hospital Queue</VL>
-         <VL Pos="153">    Copy Simulation Object    Q H1 ,  gv QRef</VL>
-         <VL Pos="154">    SET gv QRef.Name  =  "Q H"+LOOP I</VL>
-         <VL Pos="155">    SET gv QRef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
-         <VL Pos="156">    Set Object Location    gv QRef ,  820 ,  420+[150*[LOOP I-1]]</VL>
-         <VL Pos="157">    UnLink Simulation Objects    gv QRef ,  H1 MedSurg</VL>
-         <VL Pos="158">    'Med Surg</VL>
-         <VL Pos="159">    Copy Simulation Object    H1 MedSurg ,  gv ARef</VL>
-         <VL Pos="160">    SET gv ARef.Name  =  ["H"+LOOP I]+" MedSurg"</VL>
-         <VL Pos="161">    SET gv ARef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
-         <VL Pos="162">    Set Object Location    gv ARef ,  890 ,  420+[150*[LOOP I-1]]</VL>
-         <VL Pos="163">    UnLink Simulation Objects    Q H1 ,  gv ARef</VL>
-         <VL Pos="164">    UnLink Simulation Objects    gv ARef ,  Q ICU1</VL>
-         <VL Pos="165">    Link Simulation Objects    gv QRef ,  gv ARef ,  0</VL>
-         <VL Pos="166">    Remove from Group    gv ARef ,  "A H1"</VL>
-         <VL Pos="167">    ''ICU Queue</VL>
-         <VL Pos="168">    Copy Simulation Object    Q ICU1 ,  gv QRef2</VL>
-         <VL Pos="169">    SET gv QRef2.Name  =  "Q ICU"+LOOP I</VL>
-         <VL Pos="170">    SET gv QRef2.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
-         <VL Pos="171">    Set Object Location    gv QRef2 ,  820 ,  500+[150*[LOOP I-1]]</VL>
-         <VL Pos="172">    UnLink Simulation Objects    H1 MedSurg ,  gv QRef2</VL>
-         <VL Pos="173">    UnLink Simulation Objects    gv QRef2 ,  H1 ICU</VL>
-         <VL Pos="174">    Link Simulation Objects    gv ARef ,  gv QRef2 ,  0</VL>
-         <VL Pos="175">    Set Route-Out Link Position    gv ARef ,  1 ,  gv QRef2</VL>
-         <VL Pos="176">    Remove from Group    gv QRef2 ,  "A H1"</VL>
-         <VL Pos="177">    'ICU</VL>
-         <VL Pos="178">    Copy Simulation Object    H1 ICU ,  gv ARef2</VL>
-         <VL Pos="179">    SET gv ARef2.Name  =  ["H"+LOOP I]+" ICU"</VL>
-         <VL Pos="180">    SET gv ARef2.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
-         <VL Pos="181">    Set Object Location    gv ARef2 ,  890 ,  500+[150*[LOOP I-1]]</VL>
-         <VL Pos="182">    UnLink Simulation Objects    Q ICU1 ,  gv ARef2</VL>
-         <VL Pos="183">    Link Simulation Objects    gv QRef2 ,  gv ARef2 ,  0</VL>
-         <VL Pos="184">    'Create Groups</VL>
-         <VL Pos="185">    Create Group    "A H"+LOOP I</VL>
-         <VL Pos="186">    Add to Group    gv ARef ,  "A H"+LOOP I</VL>
-         <VL Pos="187">    Add to Group    gv QRef2 ,  "A H"+LOOP I</VL>
-         <VL Pos="188">  'calculate bed capacity scenarios</VL>
-         <VL Pos="189">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
-         <VL Pos="190">    SET ss Hospitals[13,LOOP I]  =  ROUND[ss Hospitals[2,LOOP I]*[1-ss Hospitals[5,LOOP I]]]</VL>
-         <VL Pos="191">    SET ss Hospitals[20,LOOP I]  =  ROUND[ss Hospitals[3,LOOP I]*[1-ss Hospitals[6,LOOP I]]]</VL>
-         <VL Pos="192">    ''20% and 50% of Baseline Demand</VL>
-         <VL Pos="193">    SET ss Hospitals[14,LOOP I]  =  ROUND[ss Hospitals[2,LOOP I]*[1-[ss Hospitals[5,LOOP I]*0.8]]]</VL>
-         <VL Pos="194">    SET ss Hospitals[21,LOOP I]  =  ROUND[ss Hospitals[3,LOOP I]*[1-[ss Hospitals[6,LOOP I]*0.8]]]</VL>
-         <VL Pos="195">    SET ss Hospitals[15,LOOP I]  =  ROUND[ss Hospitals[2,LOOP I]*[1-[ss Hospitals[5,LOOP I]*0.5]]]</VL>
-         <VL Pos="196">    SET ss Hospitals[22,LOOP I]  =  ROUND[ss Hospitals[3,LOOP I]*[1-[ss Hospitals[6,LOOP I]*0.5]]]</VL>
-         <VL Pos="197">    '10% bonus capacity built</VL>
-         <VL Pos="198">    SET ss Hospitals[16,LOOP I]  =  ROUND[ss Hospitals[14,LOOP I]+[ss Hospitals[2,LOOP I]*0.1]]</VL>
-         <VL Pos="199">    SET ss Hospitals[23,LOOP I]  =  ROUND[ss Hospitals[21,LOOP I]+[ss Hospitals[3,LOOP I]*0.1]]</VL>
-         <VL Pos="200">    SET ss Hospitals[17,LOOP I]  =  ROUND[ss Hospitals[15,LOOP I]+[ss Hospitals[2,LOOP I]*0.1]]</VL>
-         <VL Pos="201">    SET ss Hospitals[24,LOOP I]  =  ROUND[ss Hospitals[22,LOOP I]+[ss Hospitals[3,LOOP I]*0.1]]</VL>
-         <VL Pos="202">  'Set hospital bed capacities</VL>
-         <VL Pos="203">  Refresh Object Speed Lists</VL>
-         <VL Pos="204">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
-         <VL Pos="205">    IF gv Select RunSweep  =  "Yes"</VL>
-         <VL Pos="206">      'Set bed capacities</VL>
-         <VL Pos="207">      'ICU</VL>
-         <VL Pos="208">      Set Object Var from Object Speed Code    iss Speed[4,LOOP I] ,  gv ARef</VL>
-         <VL Pos="209">      SET lv Replications  =  ss BedCapacityRanges[5,TRUNC[[TRACKER RUN/gv NumTrials]+1]]</VL>
-         <VL Pos="210">      SET gv ARef.Replication  =  lv Replications</VL>
-         <VL Pos="211">      Set Group Limit    "A H"+LOOP I ,  lv Replications</VL>
-         <VL Pos="212">      'ICU</VL>
-         <VL Pos="213">      Set Object Var from Object Speed Code    iss Speed[6,LOOP I] ,  gv ARef</VL>
-         <VL Pos="214">      SET gv ARef.Replication  =  ss BedCapacityRanges[6,TRUNC[[TRACKER RUN/gv NumTrials]+1]]</VL>
-         <VL Pos="215">    ELSE</VL>
-         <VL Pos="216">      ''MedSurg</VL>
-         <VL Pos="217">      Set Object Var from Object Speed Code    iss Speed[4,LOOP I] ,  gv ARef</VL>
-         <VL Pos="218">      SET lv Replications  =  ss Hospitals[12+gv SelectCapacity,LOOP I]</VL>
-         <VL Pos="219">      SET gv ARef.Replication  =  lv Replications</VL>
-         <VL Pos="220">      Set Group Limit    "A H"+LOOP I ,  lv Replications</VL>
-         <VL Pos="221">      IF gv SelectCrowding  =  1</VL>
-         <VL Pos="222">        SET gv ARef.Replication  =  lv Replications*ss Hospitals[9,LOOP I]</VL>
-         <VL Pos="223">      ''ICU</VL>
-         <VL Pos="224">      Set Object Var from Object Speed Code    iss Speed[6,LOOP I] ,  gv ARef</VL>
-         <VL Pos="225">      SET gv ARef.Replication  =  ss Hospitals[19+gv SelectCapacity,LOOP I]</VL>
-         <VL Pos="226">      IF gv SelectCrowding  =  1</VL>
-         <VL Pos="227">        SET gv ARef.Replication  =  ss Hospitals[19+gv SelectCapacity,LOOP I]*ss Hospitals[9,LOOP I]</VL>
-         <VL Pos="228">  'Create already existing patients into the hospital beds</VL>
-         <VL Pos="229">  SET lv Count  =  1</VL>
-         <VL Pos="230">  WHILE ss Current Inpatients[1,lv Count]  &gt;  0</VL>
-         <VL Pos="231">    SET lv WhichBedType  =  ss Current Inpatients[5,lv Count]</VL>
-         <VL Pos="232">    SET lv WhichHospital  =  ss Current Inpatients[1,lv Count]</VL>
-         <VL Pos="233">    IF lv WhichBedType  =  0</VL>
-         <VL Pos="234">      Set Object Var from Object Speed Code    iss Speed[2,lv WhichHospital] ,  gv QRef</VL>
-         <VL Pos="235">      Add Work To Queue    Main Work Item Type ,  gv QRef</VL>
-         <VL Pos="236">      SET lbl Care Facility Type  =  3</VL>
-         <VL Pos="237">    ELSE</VL>
-         <VL Pos="238">      Set Object Var from Object Speed Code    iss Speed[10,lv WhichHospital] ,  gv QRef</VL>
-         <VL Pos="239">      Add Work To Queue    Main Work Item Type ,  gv QRef</VL>
-         <VL Pos="240">      SET lbl Care Facility Type  =  4</VL>
-         <VL Pos="241">    SET lbl Age Group  =  dst Age Group</VL>
-         <VL Pos="242">    SET lbl Hospital Catchment  =  lv WhichHospital</VL>
-         <VL Pos="243">    IF lv WhichBedType  =  0</VL>
-         <VL Pos="244">      SET lbl ICU eligible  =  2</VL>
-         <VL Pos="245">    ELSE</VL>
-         <VL Pos="246">      SET lbl ICU eligible  =  1</VL>
-         <VL Pos="247">    SET lbl Care Type Sought  =  3</VL>
-         <VL Pos="248">    SET lbl Acuity  =  ss Current Inpatients[3,lv Count]</VL>
-         <VL Pos="249">    CALL Function SetUp Labels</VL>
-         <VL Pos="250">    SET lbl Care Seeking Delay  =  dst Care Seeking Delay</VL>
-         <VL Pos="251">    SET lbl LOS Inpatient  =  [[lbl Illness Length+lbl Discharge Delay Time]-lbl Care Seeking Delay]-[[ss Current Inpatients[4,lv Count]*24]*60]</VL>
-         <VL Pos="252">    IF lbl LOS Inpatient  &lt;  1440</VL>
-         <VL Pos="253">      SET lbl LOS Inpatient  =  1440</VL>
-         <VL Pos="254">    IF lbl ICU eligible  =  1</VL>
-         <VL Pos="255">      SET lbl LOS ICU  =  lbl LOS Inpatient</VL>
-         <VL Pos="256">    ELSE</VL>
-         <VL Pos="257">      SET lbl LOS Inpatient Part 1  =  lbl LOS Inpatient</VL>
-         <VL Pos="258">    SET lv Count  =  lv Count+1</VL>
-         <VL Pos="259">  ''Backfill patients that are already infected but not yet symptomatic at the start of the simulation</VL>
-         <VL Pos="260">  IF ss Epi Curve[gv Epi Curve+1,1]  =  "Daily"</VL>
-         <VL Pos="261">    ''Only backfill if we are sufficiently far into the epi curve</VL>
-         <VL Pos="262">    IF ss Epi Curve[gv Epi Curve+1,gv StartRow]  &gt;  10</VL>
-         <VL Pos="263">      SET lv DailyGrowthCount  =  [ss Epi Curve[gv Epi Curve+1,gv StartRow+7]-ss Epi Curve[gv Epi Curve+1,gv StartRow]]/7</VL>
-         <VL Pos="264">      SET lv PumpPriming  =  TRUNC[[[[ss Care Seeking Delay[9,1]-ss Care Seeking Delay[8,1]]/2]*lv DailyGrowthCount]*0.5]</VL>
-         <VL Pos="265">  ELSE</VL>
-         <VL Pos="266">    'Only backfill if the weekly process is also sufficiently far into the epi curve</VL>
-         <VL Pos="267">    IF ss Epi Curve[gv Epi Curve+1,gv StartRow]  &gt;  70</VL>
-         <VL Pos="268">      SET lv DailyGrowthCount  =  [ss Epi Curve[gv Epi Curve+1,gv StartRow+1]-ss Epi Curve[gv Epi Curve+1,gv StartRow]]/7</VL>
-         <VL Pos="269">      SET lv PumpPriming  =  TRUNC[[[[ss Care Seeking Delay[9,1]-ss Care Seeking Delay[8,1]]/2]*lv DailyGrowthCount]*0.5]</VL>
-         <VL Pos="270">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv PumpPriming</VL>
-         <VL Pos="271">    Add Work To Queue    Main Work Item Type ,  Q Arrivals</VL>
-         <VL Pos="272">    SET lbl Age Group  =  dst Age Group</VL>
-         <VL Pos="273">    SET lbl Hospital Catchment  =  dst Hospital Catchment Pop</VL>
-         <VL Pos="274">    IF lbl Age Group  =  1</VL>
-         <VL Pos="275">      SET lbl Acuity  =  dst Acuity by Age_g1</VL>
-         <VL Pos="276">    ELSE IF lbl Age Group  =  2</VL>
-         <VL Pos="277">      SET lbl Acuity  =  dst Acuity by Age_g2</VL>
-         <VL Pos="278">    ELSE IF lbl Age Group  =  3</VL>
-         <VL Pos="279">      SET lbl Acuity  =  dst Acuity by Age_g3</VL>
-         <VL Pos="280">    ELSE IF lbl Age Group  =  4</VL>
-         <VL Pos="281">      SET lbl Acuity  =  dst Acuity by Age_g4</VL>
-         <VL Pos="282">    ELSE</VL>
-         <VL Pos="283">      SET lbl Acuity  =  dst Acuity by Age_g5</VL>
-         <VL Pos="284">    IF lbl Acuity  &gt;  1</VL>
-         <VL Pos="285">      IF lbl Acuity  &lt;  gv SelectICU</VL>
-         <VL Pos="286">        SET lbl ICU eligible  =  2</VL>
-         <VL Pos="287">      ELSE</VL>
-         <VL Pos="288">        SET lbl ICU eligible  =  1</VL>
-         <VL Pos="289">      Set Prob-Profile Distrib Column    dst Care Type Sought ,  1 ,  1 ,  ss Care Seeking Location[lbl Acuity+1,1]</VL>
-         <VL Pos="290">      Set Prob-Profile Distrib Column    dst Care Type Sought ,  2 ,  2 ,  ss Care Seeking Location[lbl Acuity+1,2]</VL>
-         <VL Pos="291">      Set Prob-Profile Distrib Column    dst Care Type Sought ,  3 ,  3 ,  ss Care Seeking Location[lbl Acuity+1,3]</VL>
-         <VL Pos="292">      SET lbl Care Type Sought  =  dst Care Type Sought</VL>
-         <VL Pos="293">      'Call function for the rest of the labels</VL>
-         <VL Pos="294">      CALL Function SetUp Labels</VL>
-         <VL Pos="295">      SET lbl Care Seeking Delay  =  dst Care Seeking Delay</VL>
-         <VL Pos="296">      SET lv Rand  =  RANDOM[0]</VL>
-         <VL Pos="297">      IF lbl Illness Length  &gt;  lbl Care Seeking Delay</VL>
-         <VL Pos="298">        SET lbl Illness Length  =  lbl Illness Length-[[1-lv Rand]*lbl Care Seeking Delay]</VL>
-         <VL Pos="299">      SET lbl Care Seeking Delay  =  lv Rand*lbl Care Seeking Delay</VL>
-         <VL Pos="300">  'Record assumptions for this run</VL>
-         <VL Pos="301">  SET TRACKER RUN  =  TRACKER RUN+1</VL>
-         <VL Pos="302">  SET ss R Trial Assumptions Tracker[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="303">  SET ss R Trial Assumptions Tracker[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="304">  SET ss R Trial Assumptions Tracker[3,TRACKER RUN+1]  =  gv Epi Curve</VL>
-         <VL Pos="305">  SET ss R Trial Assumptions Tracker[4,TRACKER RUN+1]  =  gv SelectCapacity</VL>
-         <VL Pos="306">  SET ss R Trial Assumptions Tracker[5,TRACKER RUN+1]  =  gv SelectCrowding</VL>
-         <VL Pos="307">  SET ss R Trial Assumptions Tracker[6,TRACKER RUN+1]  =  ""</VL>
-         <VL Pos="308">  SET ss R Trial Assumptions Tracker[7,TRACKER RUN+1]  =  gv SelectTriage</VL>
-         <VL Pos="309">  SET ss R Trial Assumptions Tracker[8,TRACKER RUN+1]  =  gv SelectReferralTriage</VL>
-         <VL Pos="310">  SET ss R Trial Assumptions Tracker[9,TRACKER RUN+1]  =  gv SelectICU</VL>
-         <VL Pos="311">  SET ss R Trial Assumptions Tracker[10,TRACKER RUN+1]  =  ""</VL>
-         <VL Pos="312">  SET ss R Trial Assumptions Tracker[11,TRACKER RUN+1]  =  gv SelectNursingLoss</VL>
-         <VL Pos="313">  SET ss R Trial Assumptions Tracker[12,TRACKER RUN+1]  =  gv BalkDuration</VL>
-         <VL Pos="314">  SET ss R Trial Assumptions Tracker[13,TRACKER RUN+1]  =  gv NumHospitals</VL>
-         <VL Pos="315">  SET ss R Trial Assumptions Tracker[14,TRACKER RUN+1]  =  gv SimWeeks</VL>
-         <VL Pos="316">  SET ss R Trial Assumptions Tracker[15,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="317">  SET ss R Trial Assumptions Tracker[17,TRACKER RUN+1]  =  gv TurnedAway</VL>
-         <VL Pos="318">  SET ss R Trial Assumptions Tracker[18,TRACKER RUN+1]  =  ResultsName</VL>
-         <VL Pos="319">  SET ss R Trial Assumptions Tracker[19,TRACKER RUN+1]  =  gv SweepPop</VL>
-         <VL Pos="320">  IF gv Select RunSweep  =  "Yes"</VL>
-         <VL Pos="321">    SET ss R Trial Assumptions Tracker[20,TRACKER RUN+1]  =  ss BedCapacityRanges[5,TRUNC[[[TRACKER RUN-1]/gv NumTrials]+1]]</VL>
-         <VL Pos="322">    SET ss R Trial Assumptions Tracker[21,TRACKER RUN+1]  =  ss BedCapacityRanges[6,TRUNC[[[TRACKER RUN-1]/gv NumTrials]+1]]</VL>
-         <VL Pos="323">  'Label weekly tracker sheets with reference values</VL>
-         <VL Pos="324">  SET ss R Inpt Q Contents End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="325">  SET ss R Inpt Q Contents End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="326">  SET ss R Inpt Q Contents End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="327">  SET ss R Inpt Occupancy End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="328">  SET ss R Inpt Occupancy End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="329">  SET ss R Inpt Occupancy End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="330">  SET ss R ICU Occupancy End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="331">  SET ss R ICU Occupancy End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="332">  SET ss R ICU Occupancy End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="333">  SET ss R MedSurg Occupancy End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="334">  SET ss R MedSurg Occupancy End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="335">  SET ss R MedSurg Occupancy End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="336">  SET ss R Outpatient Completed by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="337">  SET ss R Outpatient Completed by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="338">  SET ss R Outpatient Completed by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="339">  SET ss R Turned Away Completed by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="340">  SET ss R Turned Away Completed by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="341">  SET ss R Turned Away Completed by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="342">  SET ss R Home Care Completed by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="343">  SET ss R Home Care Completed by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="344">  SET ss R Home Care Completed by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="345">  SET ss R Inpt Q Time ICU Eligible by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="346">  SET ss R Inpt Q Time ICU Eligible by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="347">  SET ss R Inpt Q Time ICU Eligible by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="348">  SET ss R Inpt Q Time NonICU by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="349">  SET ss R Inpt Q Time NonICU by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="350">  SET ss R Inpt Q Time NonICU by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="351">  SET ss R Outcome Counts[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
-         <VL Pos="352">  SET ss R Outcome Counts[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
-         <VL Pos="353">  SET ss R Outcome Counts[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
-         <VL Pos="354">  ''Label R Care Received Tables with Run Number Column</VL>
-         <VL Pos="355">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+2]  =  "Sought: Home"</VL>
-         <VL Pos="356">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+3]  =  "Sought: OP"</VL>
-         <VL Pos="357">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+4]  =  "Sought: IP"</VL>
-         <VL Pos="358">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+5]  =  "Acuity 1"</VL>
-         <VL Pos="359">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+6]  =  "Acuity 2"</VL>
-         <VL Pos="360">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+7]  =  "Acuity 3"</VL>
-         <VL Pos="361">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+8]  =  "Acuity 4"</VL>
-         <VL Pos="362">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+9]  =  "Acuity 5"</VL>
-         <VL Pos="363">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; 8</VL>
-         <VL Pos="364">    SET ss R Care Received[2,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
-         <VL Pos="365">    SET ss R Care Received[3,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
-         <VL Pos="366">    SET ss R Care Received[4,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
-         <VL Pos="367">    SET ss R Care Received[5,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
-         <VL Pos="368">    SET ss R Care Received[6,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
-         <VL Pos="369">    SET ss R Care Received[7,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  TRACKER RUN</VL>
-         <VL Pos="370">  IF TRACKER RUNNING_SCENARIOS  =  "Yes"</VL>
-         <VL Pos="371">    Run Simulation    Results Collection Period</VL>
+         <VL Pos="7">  ''Clear Sheet Data Only    ss R Patient Log[1,1]</VL>
+         <VL Pos="8">  IF TRACKER RUNNING_SCENARIOS  =  "Yes"</VL>
+         <VL Pos="9">    IF gv Select RunSweep  =  "Yes"</VL>
+         <VL Pos="10">      SET gv SimWeeks  =  gv SimWeeks</VL>
+         <VL Pos="11">    ELSE</VL>
+         <VL Pos="12">      IF gv SelectWeeksOptions  =  1</VL>
+         <VL Pos="13">        SET gv SimWeeks  =  12</VL>
+         <VL Pos="14">      ELSE IF gv SelectWeeksOptions  =  2</VL>
+         <VL Pos="15">        IF ss Epi Curve[gv Epi Curve,[[7*16]+1]]  &gt;  0</VL>
+         <VL Pos="16">          SET gv SimWeeks  =  16</VL>
+         <VL Pos="17">        ELSE</VL>
+         <VL Pos="18">          SET gv SimWeeks  =  12</VL>
+         <VL Pos="19">          Display Message    "You have selected a run duration of 16 weeks, but there is not enough data in the epi curves to do so. The simulation has been set to run for 12 weeks."</VL>
+         <VL Pos="20">      ELSE IF gv SelectWeeksOptions  =  3</VL>
+         <VL Pos="21">        IF ss Epi Curve[gv Epi Curve,[[7*20]+1]]  &gt;  0</VL>
+         <VL Pos="22">          SET gv SimWeeks  =  20</VL>
+         <VL Pos="23">        ELSE IF ss Epi Curve[gv Epi Curve,[[7*16]+1]]  &gt;  0</VL>
+         <VL Pos="24">          SET gv SimWeeks  =  16</VL>
+         <VL Pos="25">          Display Message    "You have selected a run duration of 20 weeks, but there is not enough data in the epi curves to do so. The simulation has been set to run for 16 weeks."</VL>
+         <VL Pos="26">        ELSE</VL>
+         <VL Pos="27">          SET gv SimWeeks  =  12</VL>
+         <VL Pos="28">          Display Message    "You have selected a run duration of 20 weeks, but there is not enough data in the epi curves to do so. The simulation has been set to run for 12 weeks."</VL>
+         <VL Pos="29">  SET Results Collection Period  =  [[gv SimWeeks*60]*24]*7</VL>
+         <VL Pos="30">  SET gv WeekNum  =  0</VL>
+         <VL Pos="31">  SET gv DayNum  =  0</VL>
+         <VL Pos="32">  'Find out which day to start the model, based on the pre-set gv StartCount = cummulative number of infections</VL>
+         <VL Pos="33">  SET lv Count  =  2</VL>
+         <VL Pos="34">  UNTIL ss Epi Curve[gv Epi Curve+1,lv Count]  &gt;  gv StartCount</VL>
+         <VL Pos="35">    SET lv Count  =  lv Count+1</VL>
+         <VL Pos="36">  SET gv StartRow  =  lv Count-1</VL>
+         <VL Pos="37">  'Count the number of age groups</VL>
+         <VL Pos="38">  SET LOOP I  =  1</VL>
+         <VL Pos="39">  UNTIL ss Acuity[1,LOOP I]  =  ""</VL>
+         <VL Pos="40">    SET LOOP I  =  LOOP I+1</VL>
+         <VL Pos="41">  SET lv NumAgeGroups  =  LOOP I-1</VL>
+         <VL Pos="42">  'These will get updated based on the patient's characteristics</VL>
+         <VL Pos="43">  Set Number of Columns in Probability Profile    dst Acuity by Age_g1 ,  5</VL>
+         <VL Pos="44">  Set Number of Columns in Probability Profile    dst Acuity by Age_g2 ,  5</VL>
+         <VL Pos="45">  Set Number of Columns in Probability Profile    dst Acuity by Age_g3 ,  5</VL>
+         <VL Pos="46">  Set Number of Columns in Probability Profile    dst Acuity by Age_g4 ,  5</VL>
+         <VL Pos="47">  Set Number of Columns in Probability Profile    dst Acuity by Age_g5 ,  5</VL>
+         <VL Pos="48">  Set Number of Columns in Probability Profile    dst Care Type Sought ,  3</VL>
+         <VL Pos="49">  Set Number of Columns in Probability Profile    dst Mortality Binary ,  2</VL>
+         <VL Pos="50">  Set Number of Columns in Probability Profile    dst Age Group ,  lv NumAgeGroups</VL>
+         <VL Pos="51">  'Set up acuity profiles</VL>
+         <VL Pos="52">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  1 ,  1 ,  ss Acuity[2,1]*100</VL>
+         <VL Pos="53">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  2 ,  2 ,  ss Acuity[3,1]*100</VL>
+         <VL Pos="54">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  3 ,  3 ,  ss Acuity[4,1]*100</VL>
+         <VL Pos="55">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  4 ,  4 ,  ss Acuity[5,1]*100</VL>
+         <VL Pos="56">  Set Prob-Profile Distrib Column    dst Acuity by Age_g1 ,  5 ,  5 ,  ss Acuity[6,1]*100</VL>
+         <VL Pos="57">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  1 ,  1 ,  ss Acuity[2,2]*100</VL>
+         <VL Pos="58">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  2 ,  2 ,  ss Acuity[3,2]*100</VL>
+         <VL Pos="59">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  3 ,  3 ,  ss Acuity[4,2]*100</VL>
+         <VL Pos="60">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  4 ,  4 ,  ss Acuity[5,2]*100</VL>
+         <VL Pos="61">  Set Prob-Profile Distrib Column    dst Acuity by Age_g2 ,  5 ,  5 ,  ss Acuity[6,2]*100</VL>
+         <VL Pos="62">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  1 ,  1 ,  ss Acuity[2,3]*100</VL>
+         <VL Pos="63">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  2 ,  2 ,  ss Acuity[3,3]*100</VL>
+         <VL Pos="64">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  3 ,  3 ,  ss Acuity[4,3]*100</VL>
+         <VL Pos="65">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  4 ,  4 ,  ss Acuity[5,3]*100</VL>
+         <VL Pos="66">  Set Prob-Profile Distrib Column    dst Acuity by Age_g3 ,  5 ,  5 ,  ss Acuity[6,3]*100</VL>
+         <VL Pos="67">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  1 ,  1 ,  ss Acuity[2,4]*100</VL>
+         <VL Pos="68">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  2 ,  2 ,  ss Acuity[3,4]*100</VL>
+         <VL Pos="69">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  3 ,  3 ,  ss Acuity[4,4]*100</VL>
+         <VL Pos="70">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  4 ,  4 ,  ss Acuity[5,4]*100</VL>
+         <VL Pos="71">  Set Prob-Profile Distrib Column    dst Acuity by Age_g4 ,  5 ,  5 ,  ss Acuity[6,4]*100</VL>
+         <VL Pos="72">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  1 ,  1 ,  ss Acuity[2,5]*100</VL>
+         <VL Pos="73">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  2 ,  2 ,  ss Acuity[3,5]*100</VL>
+         <VL Pos="74">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  3 ,  3 ,  ss Acuity[4,5]*100</VL>
+         <VL Pos="75">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  4 ,  4 ,  ss Acuity[5,5]*100</VL>
+         <VL Pos="76">  Set Prob-Profile Distrib Column    dst Acuity by Age_g5 ,  5 ,  5 ,  ss Acuity[6,5]*100</VL>
+         <VL Pos="77">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  1 ,  1 ,  ss Acuity[2,6]*100</VL>
+         <VL Pos="78">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  2 ,  2 ,  ss Acuity[3,6]*100</VL>
+         <VL Pos="79">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  3 ,  3 ,  ss Acuity[4,6]*100</VL>
+         <VL Pos="80">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  4 ,  4 ,  ss Acuity[5,6]*100</VL>
+         <VL Pos="81">  Set Prob-Profile Distrib Column    dst Acuity by Age_g6 ,  5 ,  5 ,  ss Acuity[6,6]*100</VL>
+         <VL Pos="82">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob ICU ,  1 ,  1 ,  ss Discharge Delay Parameters[1,1]*100</VL>
+         <VL Pos="83">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob ICU ,  2 ,  2 ,  100-[ss Discharge Delay Parameters[1,1]*100]</VL>
+         <VL Pos="84">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob MedSurg ,  1 ,  1 ,  ss Discharge Delay Parameters[4,1]*100</VL>
+         <VL Pos="85">  Set Prob-Profile Distrib Column    dst Discharge Delay Prob MedSurg ,  2 ,  2 ,  100-[ss Discharge Delay Parameters[4,1]*100]</VL>
+         <VL Pos="86">  '' Count the Number of Groups before they are deleted</VL>
+         <VL Pos="87">  SET LOOP I  =  1</VL>
+         <VL Pos="88">  UNTIL iss Speed[1,LOOP I]  =  ""</VL>
+         <VL Pos="89">    SET LOOP I  =  LOOP I+1</VL>
+         <VL Pos="90">  SET lv NumGroups  =  LOOP I-1</VL>
+         <VL Pos="91">  Clear Sheet    iss Speed[1,1]</VL>
+         <VL Pos="92">  'Count the number of hospitals</VL>
+         <VL Pos="93">  SET LOOP I  =  1</VL>
+         <VL Pos="94">  UNTIL ss Hospitals[2,LOOP I]  =  ""</VL>
+         <VL Pos="95">    SET LOOP I  =  LOOP I+1</VL>
+         <VL Pos="96">  SET gv NumHospitals  =  LOOP I-1</VL>
+         <VL Pos="97">  'If we are doing a capacity sweep, ignore the hospitals data input sheet.</VL>
+         <VL Pos="98">  IF gv Select RunSweep  =  "Yes"</VL>
+         <VL Pos="99">    SET gv NumHospitals  =  1</VL>
+         <VL Pos="100">  'This is to set up the hospital catchment population distribution</VL>
+         <VL Pos="101">  Set Number of Columns in Probability Profile    dst Hospital Catchment Pop ,  gv NumHospitals</VL>
+         <VL Pos="102">  SET lv TotalPop  =  0</VL>
+         <VL Pos="103">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
+         <VL Pos="104">    SET lv TotalPop  =  lv TotalPop+ss Hospitals[4,LOOP I]</VL>
+         <VL Pos="105">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
+         <VL Pos="106">    Set Prob-Profile Distrib Column    dst Hospital Catchment Pop ,  LOOP I ,  LOOP I ,  [[ss Hospitals[4,LOOP I]/lv TotalPop]*100]</VL>
+         <VL Pos="107">  'Create speed lists</VL>
+         <VL Pos="108">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
+         <VL Pos="109">    SET iss Speed[1,LOOP I]  =  "Q H"+LOOP I</VL>
+         <VL Pos="110">    SET iss Speed[3,LOOP I]  =  ["H"+LOOP I]+" MedSurg"</VL>
+         <VL Pos="111">    SET iss Speed[5,LOOP I]  =  ["H"+LOOP I]+" ICU"</VL>
+         <VL Pos="112">    SET iss Speed[9,LOOP I]  =  "Q ICU"+LOOP I</VL>
+         <VL Pos="113">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv SimWeeks</VL>
+         <VL Pos="114">    IF ss Epi Curve[gv Epi Curve+1,1]  =  "Daily"</VL>
+         <VL Pos="115">      SET lv Count  =  0</VL>
+         <VL Pos="116">      LOOP 1 &gt;&gt;&gt; LOOP J &gt;&gt;&gt; 7</VL>
+         <VL Pos="117">        SET lv Count  =  lv Count+ss Epi Curve[gv Epi Curve+1,[[[[LOOP I-1]*7]+gv StartRow]+[LOOP J-1]]]</VL>
+         <VL Pos="118">      IF lv Count  &gt;  lv Max</VL>
+         <VL Pos="119">        SET lv Max  =  lv Count</VL>
+         <VL Pos="120">    ELSE IF ss Epi Curve[gv Epi Curve+1,1]  =  "Weekly"</VL>
+         <VL Pos="121">      IF ss Epi Curve[gv Epi Curve+1,[gv StartRow+[LOOP I-1]]]  &gt;  lv Max</VL>
+         <VL Pos="122">        SET lv Max  =  ss Epi Curve[gv Epi Curve+1,[gv StartRow+[LOOP I-1]]]</VL>
+         <VL Pos="123">    ELSE</VL>
+         <VL Pos="124">      '' There is a Time Period that differs from Daily or Weekly</VL>
+         <VL Pos="125">      Display Message    "There is an error in the epi curve setup. Please contact support at covid@idmod.org and tell them that this is the error message."</VL>
+         <VL Pos="126">  SET lv NumCopies  =  ROUND[[lv Max/20000]+1]+1</VL>
+         <VL Pos="127">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv NumCopies</VL>
+         <VL Pos="128">    SET iss Speed[7,LOOP I]  =  "Rt Care Seeking Delay "+LOOP I</VL>
+         <VL Pos="129">    ''SET iss Speed[9,LOOP I]  =  "LOS Outpatient "+LOOP I</VL>
+         <VL Pos="130">  Add speed list location    iss Speed[1,1]</VL>
+         <VL Pos="131">  Add speed list location    iss Speed[3,1]</VL>
+         <VL Pos="132">  Add speed list location    iss Speed[5,1]</VL>
+         <VL Pos="133">  Add speed list location    iss Speed[7,1]</VL>
+         <VL Pos="134">  Add speed list location    iss Speed[9,1]</VL>
+         <VL Pos="135">  Refresh Object Speed Lists</VL>
+         <VL Pos="136">  'Erase copied activities and queues</VL>
+         <VL Pos="137">  LOOPOBJECTS all STORAGE BINS with gv QRef</VL>
+         <VL Pos="138">    IF gv QRef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
+         <VL Pos="139">      Erase Simulation Object    gv QRef</VL>
+         <VL Pos="140">  LOOPOBJECTS all WORK CENTERS with gv ARef</VL>
+         <VL Pos="141">    IF gv ARef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
+         <VL Pos="142">      Erase Simulation Object    gv ARef</VL>
+         <VL Pos="143">  LOOP 2 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv NumGroups</VL>
+         <VL Pos="144">    Erase Group    "A H"+LOOP I</VL>
+         <VL Pos="145">  LOOP 2 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv NumCopies</VL>
+         <VL Pos="146">    'Care Seeking Delay</VL>
+         <VL Pos="147">    Copy Simulation Object    Rt Care Seeking Delay 1 ,  gv ARef</VL>
+         <VL Pos="148">    SET gv ARef.Name  =  "Rt Care Seeking Delay "+LOOP I</VL>
+         <VL Pos="149">    SET gv ARef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
+         <VL Pos="150">    Set Object Location    gv ARef ,  230 ,  335</VL>
+         <VL Pos="151">  'Create copied objects for hospitals</VL>
+         <VL Pos="152">  LOOP 2 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
+         <VL Pos="153">    'Hospital Queue</VL>
+         <VL Pos="154">    Copy Simulation Object    Q H1 ,  gv QRef</VL>
+         <VL Pos="155">    SET gv QRef.Name  =  "Q H"+LOOP I</VL>
+         <VL Pos="156">    SET gv QRef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
+         <VL Pos="157">    Set Object Location    gv QRef ,  820 ,  420+[150*[LOOP I-1]]</VL>
+         <VL Pos="158">    UnLink Simulation Objects    gv QRef ,  H1 MedSurg</VL>
+         <VL Pos="159">    'Med Surg</VL>
+         <VL Pos="160">    Copy Simulation Object    H1 MedSurg ,  gv ARef</VL>
+         <VL Pos="161">    SET gv ARef.Name  =  ["H"+LOOP I]+" MedSurg"</VL>
+         <VL Pos="162">    SET gv ARef.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
+         <VL Pos="163">    Set Object Location    gv ARef ,  890 ,  420+[150*[LOOP I-1]]</VL>
+         <VL Pos="164">    UnLink Simulation Objects    Q H1 ,  gv ARef</VL>
+         <VL Pos="165">    UnLink Simulation Objects    gv ARef ,  Q ICU1</VL>
+         <VL Pos="166">    Link Simulation Objects    gv QRef ,  gv ARef ,  0</VL>
+         <VL Pos="167">    Remove from Group    gv ARef ,  "A H1"</VL>
+         <VL Pos="168">    ''ICU Queue</VL>
+         <VL Pos="169">    Copy Simulation Object    Q ICU1 ,  gv QRef2</VL>
+         <VL Pos="170">    SET gv QRef2.Name  =  "Q ICU"+LOOP I</VL>
+         <VL Pos="171">    SET gv QRef2.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
+         <VL Pos="172">    Set Object Location    gv QRef2 ,  820 ,  500+[150*[LOOP I-1]]</VL>
+         <VL Pos="173">    UnLink Simulation Objects    H1 MedSurg ,  gv QRef2</VL>
+         <VL Pos="174">    UnLink Simulation Objects    gv QRef2 ,  H1 ICU</VL>
+         <VL Pos="175">    Link Simulation Objects    gv ARef ,  gv QRef2 ,  0</VL>
+         <VL Pos="176">    Set Route-Out Link Position    gv ARef ,  1 ,  gv QRef2</VL>
+         <VL Pos="177">    Remove from Group    gv QRef2 ,  "A H1"</VL>
+         <VL Pos="178">    'ICU</VL>
+         <VL Pos="179">    Copy Simulation Object    H1 ICU ,  gv ARef2</VL>
+         <VL Pos="180">    SET gv ARef2.Name  =  ["H"+LOOP I]+" ICU"</VL>
+         <VL Pos="181">    SET gv ARef2.CustomProperty["ObjectType"]  =  "CopiedObject"</VL>
+         <VL Pos="182">    Set Object Location    gv ARef2 ,  890 ,  500+[150*[LOOP I-1]]</VL>
+         <VL Pos="183">    UnLink Simulation Objects    Q ICU1 ,  gv ARef2</VL>
+         <VL Pos="184">    Link Simulation Objects    gv QRef2 ,  gv ARef2 ,  0</VL>
+         <VL Pos="185">    'Create Groups</VL>
+         <VL Pos="186">    Create Group    "A H"+LOOP I</VL>
+         <VL Pos="187">    Add to Group    gv ARef ,  "A H"+LOOP I</VL>
+         <VL Pos="188">    Add to Group    gv QRef2 ,  "A H"+LOOP I</VL>
+         <VL Pos="189">  'calculate bed capacity scenarios</VL>
+         <VL Pos="190">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
+         <VL Pos="191">    SET ss Hospitals[13,LOOP I]  =  ROUND[ss Hospitals[2,LOOP I]*[1-ss Hospitals[5,LOOP I]]]</VL>
+         <VL Pos="192">    SET ss Hospitals[20,LOOP I]  =  ROUND[ss Hospitals[3,LOOP I]*[1-ss Hospitals[6,LOOP I]]]</VL>
+         <VL Pos="193">    ''20% and 50% of Baseline Demand</VL>
+         <VL Pos="194">    SET ss Hospitals[14,LOOP I]  =  ROUND[ss Hospitals[2,LOOP I]*[1-[ss Hospitals[5,LOOP I]*0.8]]]</VL>
+         <VL Pos="195">    SET ss Hospitals[21,LOOP I]  =  ROUND[ss Hospitals[3,LOOP I]*[1-[ss Hospitals[6,LOOP I]*0.8]]]</VL>
+         <VL Pos="196">    SET ss Hospitals[15,LOOP I]  =  ROUND[ss Hospitals[2,LOOP I]*[1-[ss Hospitals[5,LOOP I]*0.5]]]</VL>
+         <VL Pos="197">    SET ss Hospitals[22,LOOP I]  =  ROUND[ss Hospitals[3,LOOP I]*[1-[ss Hospitals[6,LOOP I]*0.5]]]</VL>
+         <VL Pos="198">    '10% bonus capacity built</VL>
+         <VL Pos="199">    SET ss Hospitals[16,LOOP I]  =  ROUND[ss Hospitals[14,LOOP I]+[ss Hospitals[2,LOOP I]*0.1]]</VL>
+         <VL Pos="200">    SET ss Hospitals[23,LOOP I]  =  ROUND[ss Hospitals[21,LOOP I]+[ss Hospitals[3,LOOP I]*0.1]]</VL>
+         <VL Pos="201">    SET ss Hospitals[17,LOOP I]  =  ROUND[ss Hospitals[15,LOOP I]+[ss Hospitals[2,LOOP I]*0.1]]</VL>
+         <VL Pos="202">    SET ss Hospitals[24,LOOP I]  =  ROUND[ss Hospitals[22,LOOP I]+[ss Hospitals[3,LOOP I]*0.1]]</VL>
+         <VL Pos="203">  'Set hospital bed capacities</VL>
+         <VL Pos="204">  Refresh Object Speed Lists</VL>
+         <VL Pos="205">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; gv NumHospitals</VL>
+         <VL Pos="206">    IF gv Select RunSweep  =  "Yes"</VL>
+         <VL Pos="207">      'Set bed capacities</VL>
+         <VL Pos="208">      'ICU</VL>
+         <VL Pos="209">      Set Object Var from Object Speed Code    iss Speed[4,LOOP I] ,  gv ARef</VL>
+         <VL Pos="210">      SET lv Replications  =  ss BedCapacityRanges[5,TRUNC[[TRACKER RUN/gv NumTrials]+1]]</VL>
+         <VL Pos="211">      SET gv ARef.Replication  =  lv Replications</VL>
+         <VL Pos="212">      Set Group Limit    "A H"+LOOP I ,  lv Replications</VL>
+         <VL Pos="213">      'ICU</VL>
+         <VL Pos="214">      Set Object Var from Object Speed Code    iss Speed[6,LOOP I] ,  gv ARef</VL>
+         <VL Pos="215">      SET gv ARef.Replication  =  ss BedCapacityRanges[6,TRUNC[[TRACKER RUN/gv NumTrials]+1]]</VL>
+         <VL Pos="216">    ELSE</VL>
+         <VL Pos="217">      ''MedSurg</VL>
+         <VL Pos="218">      Set Object Var from Object Speed Code    iss Speed[4,LOOP I] ,  gv ARef</VL>
+         <VL Pos="219">      SET lv Replications  =  ss Hospitals[12+gv SelectCapacity,LOOP I]</VL>
+         <VL Pos="220">      SET gv ARef.Replication  =  lv Replications</VL>
+         <VL Pos="221">      Set Group Limit    "A H"+LOOP I ,  lv Replications</VL>
+         <VL Pos="222">      IF gv SelectCrowding  =  1</VL>
+         <VL Pos="223">        SET gv ARef.Replication  =  lv Replications*ss Hospitals[9,LOOP I]</VL>
+         <VL Pos="224">      ''ICU</VL>
+         <VL Pos="225">      Set Object Var from Object Speed Code    iss Speed[6,LOOP I] ,  gv ARef</VL>
+         <VL Pos="226">      SET gv ARef.Replication  =  ss Hospitals[19+gv SelectCapacity,LOOP I]</VL>
+         <VL Pos="227">      IF gv SelectCrowding  =  1</VL>
+         <VL Pos="228">        SET gv ARef.Replication  =  ss Hospitals[19+gv SelectCapacity,LOOP I]*ss Hospitals[9,LOOP I]</VL>
+         <VL Pos="229">  'Create already existing patients into the hospital beds</VL>
+         <VL Pos="230">  SET lv Count  =  1</VL>
+         <VL Pos="231">  WHILE ss Current Inpatients[1,lv Count]  &gt;  0</VL>
+         <VL Pos="232">    SET lv WhichBedType  =  ss Current Inpatients[5,lv Count]</VL>
+         <VL Pos="233">    SET lv WhichHospital  =  ss Current Inpatients[1,lv Count]</VL>
+         <VL Pos="234">    IF lv WhichBedType  =  0</VL>
+         <VL Pos="235">      Set Object Var from Object Speed Code    iss Speed[2,lv WhichHospital] ,  gv QRef</VL>
+         <VL Pos="236">      Add Work To Queue    Main Work Item Type ,  gv QRef</VL>
+         <VL Pos="237">      SET lbl Care Facility Type  =  3</VL>
+         <VL Pos="238">    ELSE</VL>
+         <VL Pos="239">      Set Object Var from Object Speed Code    iss Speed[10,lv WhichHospital] ,  gv QRef</VL>
+         <VL Pos="240">      Add Work To Queue    Main Work Item Type ,  gv QRef</VL>
+         <VL Pos="241">      SET lbl Care Facility Type  =  4</VL>
+         <VL Pos="242">    SET lbl Age Group  =  dst Age Group</VL>
+         <VL Pos="243">    SET lbl Hospital Catchment  =  lv WhichHospital</VL>
+         <VL Pos="244">    IF lv WhichBedType  =  0</VL>
+         <VL Pos="245">      SET lbl ICU eligible  =  2</VL>
+         <VL Pos="246">    ELSE</VL>
+         <VL Pos="247">      SET lbl ICU eligible  =  1</VL>
+         <VL Pos="248">    SET lbl Care Type Sought  =  3</VL>
+         <VL Pos="249">    SET lbl Acuity  =  ss Current Inpatients[3,lv Count]</VL>
+         <VL Pos="250">    CALL Function SetUp Labels</VL>
+         <VL Pos="251">    SET lbl Care Seeking Delay  =  dst Care Seeking Delay</VL>
+         <VL Pos="252">    SET lbl LOS Inpatient  =  [[lbl Illness Length+lbl Discharge Delay Time]-lbl Care Seeking Delay]-[[ss Current Inpatients[4,lv Count]*24]*60]</VL>
+         <VL Pos="253">    IF lbl LOS Inpatient  &lt;  1440</VL>
+         <VL Pos="254">      SET lbl LOS Inpatient  =  1440</VL>
+         <VL Pos="255">    IF lbl ICU eligible  =  1</VL>
+         <VL Pos="256">      SET lbl LOS ICU  =  lbl LOS Inpatient</VL>
+         <VL Pos="257">    ELSE</VL>
+         <VL Pos="258">      SET lbl LOS Inpatient Part 1  =  lbl LOS Inpatient</VL>
+         <VL Pos="259">    SET lv Count  =  lv Count+1</VL>
+         <VL Pos="260">  ''Backfill patients that are already infected but not yet symptomatic at the start of the simulation</VL>
+         <VL Pos="261">  IF ss Epi Curve[gv Epi Curve+1,1]  =  "Daily"</VL>
+         <VL Pos="262">    ''Only backfill if we are sufficiently far into the epi curve</VL>
+         <VL Pos="263">    IF ss Epi Curve[gv Epi Curve+1,gv StartRow]  &gt;  10</VL>
+         <VL Pos="264">      SET lv DailyGrowthCount  =  [ss Epi Curve[gv Epi Curve+1,gv StartRow+7]-ss Epi Curve[gv Epi Curve+1,gv StartRow]]/7</VL>
+         <VL Pos="265">      SET lv PumpPriming  =  TRUNC[[[[ss Care Seeking Delay[9,1]-ss Care Seeking Delay[8,1]]/2]*lv DailyGrowthCount]*0.5]</VL>
+         <VL Pos="266">  ELSE</VL>
+         <VL Pos="267">    'Only backfill if the weekly process is also sufficiently far into the epi curve</VL>
+         <VL Pos="268">    IF ss Epi Curve[gv Epi Curve+1,gv StartRow]  &gt;  70</VL>
+         <VL Pos="269">      SET lv DailyGrowthCount  =  [ss Epi Curve[gv Epi Curve+1,gv StartRow+1]-ss Epi Curve[gv Epi Curve+1,gv StartRow]]/7</VL>
+         <VL Pos="270">      SET lv PumpPriming  =  TRUNC[[[[ss Care Seeking Delay[9,1]-ss Care Seeking Delay[8,1]]/2]*lv DailyGrowthCount]*0.5]</VL>
+         <VL Pos="271">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; lv PumpPriming</VL>
+         <VL Pos="272">    Add Work To Queue    Main Work Item Type ,  Q Arrivals</VL>
+         <VL Pos="273">    SET lbl Age Group  =  dst Age Group</VL>
+         <VL Pos="274">    SET lbl Hospital Catchment  =  dst Hospital Catchment Pop</VL>
+         <VL Pos="275">    IF lbl Age Group  =  1</VL>
+         <VL Pos="276">      SET lbl Acuity  =  dst Acuity by Age_g1</VL>
+         <VL Pos="277">    ELSE IF lbl Age Group  =  2</VL>
+         <VL Pos="278">      SET lbl Acuity  =  dst Acuity by Age_g2</VL>
+         <VL Pos="279">    ELSE IF lbl Age Group  =  3</VL>
+         <VL Pos="280">      SET lbl Acuity  =  dst Acuity by Age_g3</VL>
+         <VL Pos="281">    ELSE IF lbl Age Group  =  4</VL>
+         <VL Pos="282">      SET lbl Acuity  =  dst Acuity by Age_g4</VL>
+         <VL Pos="283">    ELSE</VL>
+         <VL Pos="284">      SET lbl Acuity  =  dst Acuity by Age_g5</VL>
+         <VL Pos="285">    IF lbl Acuity  &gt;  1</VL>
+         <VL Pos="286">      IF lbl Acuity  &lt;  gv SelectICU</VL>
+         <VL Pos="287">        SET lbl ICU eligible  =  2</VL>
+         <VL Pos="288">      ELSE</VL>
+         <VL Pos="289">        SET lbl ICU eligible  =  1</VL>
+         <VL Pos="290">      Set Prob-Profile Distrib Column    dst Care Type Sought ,  1 ,  1 ,  ss Care Seeking Location[lbl Acuity+1,1]</VL>
+         <VL Pos="291">      Set Prob-Profile Distrib Column    dst Care Type Sought ,  2 ,  2 ,  ss Care Seeking Location[lbl Acuity+1,2]</VL>
+         <VL Pos="292">      Set Prob-Profile Distrib Column    dst Care Type Sought ,  3 ,  3 ,  ss Care Seeking Location[lbl Acuity+1,3]</VL>
+         <VL Pos="293">      SET lbl Care Type Sought  =  dst Care Type Sought</VL>
+         <VL Pos="294">      'Call function for the rest of the labels</VL>
+         <VL Pos="295">      CALL Function SetUp Labels</VL>
+         <VL Pos="296">      SET lbl Care Seeking Delay  =  dst Care Seeking Delay</VL>
+         <VL Pos="297">      SET lv Rand  =  RANDOM[0]</VL>
+         <VL Pos="298">      IF lbl Illness Length  &gt;  lbl Care Seeking Delay</VL>
+         <VL Pos="299">        SET lbl Illness Length  =  lbl Illness Length-[[1-lv Rand]*lbl Care Seeking Delay]</VL>
+         <VL Pos="300">      SET lbl Care Seeking Delay  =  lv Rand*lbl Care Seeking Delay</VL>
+         <VL Pos="301">  'Record assumptions for this run</VL>
+         <VL Pos="302">  SET TRACKER RUN  =  TRACKER RUN+1</VL>
+         <VL Pos="303">  SET ss R Trial Assumptions Tracker[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="304">  SET ss R Trial Assumptions Tracker[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="305">  SET ss R Trial Assumptions Tracker[3,TRACKER RUN+1]  =  gv Epi Curve</VL>
+         <VL Pos="306">  SET ss R Trial Assumptions Tracker[4,TRACKER RUN+1]  =  gv SelectCapacity</VL>
+         <VL Pos="307">  SET ss R Trial Assumptions Tracker[5,TRACKER RUN+1]  =  gv SelectCrowding</VL>
+         <VL Pos="308">  SET ss R Trial Assumptions Tracker[6,TRACKER RUN+1]  =  ""</VL>
+         <VL Pos="309">  SET ss R Trial Assumptions Tracker[7,TRACKER RUN+1]  =  gv SelectTriage</VL>
+         <VL Pos="310">  SET ss R Trial Assumptions Tracker[8,TRACKER RUN+1]  =  gv SelectReferralTriage</VL>
+         <VL Pos="311">  SET ss R Trial Assumptions Tracker[9,TRACKER RUN+1]  =  gv SelectICU</VL>
+         <VL Pos="312">  SET ss R Trial Assumptions Tracker[10,TRACKER RUN+1]  =  ""</VL>
+         <VL Pos="313">  SET ss R Trial Assumptions Tracker[11,TRACKER RUN+1]  =  gv SelectNursingLoss</VL>
+         <VL Pos="314">  SET ss R Trial Assumptions Tracker[12,TRACKER RUN+1]  =  gv BalkDuration</VL>
+         <VL Pos="315">  SET ss R Trial Assumptions Tracker[13,TRACKER RUN+1]  =  gv NumHospitals</VL>
+         <VL Pos="316">  SET ss R Trial Assumptions Tracker[14,TRACKER RUN+1]  =  gv SimWeeks</VL>
+         <VL Pos="317">  SET ss R Trial Assumptions Tracker[15,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="318">  SET ss R Trial Assumptions Tracker[17,TRACKER RUN+1]  =  gv TurnedAway</VL>
+         <VL Pos="319">  SET ss R Trial Assumptions Tracker[18,TRACKER RUN+1]  =  ResultsName</VL>
+         <VL Pos="320">  SET ss R Trial Assumptions Tracker[19,TRACKER RUN+1]  =  gv SweepPop</VL>
+         <VL Pos="321">  IF gv Select RunSweep  =  "Yes"</VL>
+         <VL Pos="322">    SET ss R Trial Assumptions Tracker[20,TRACKER RUN+1]  =  ss BedCapacityRanges[5,TRUNC[[[TRACKER RUN-1]/gv NumTrials]+1]]</VL>
+         <VL Pos="323">    SET ss R Trial Assumptions Tracker[21,TRACKER RUN+1]  =  ss BedCapacityRanges[6,TRUNC[[[TRACKER RUN-1]/gv NumTrials]+1]]</VL>
+         <VL Pos="324">  'Label weekly tracker sheets with reference values</VL>
+         <VL Pos="325">  SET ss R Inpt Q Contents End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="326">  SET ss R Inpt Q Contents End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="327">  SET ss R Inpt Q Contents End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="328">  SET ss R Inpt Occupancy End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="329">  SET ss R Inpt Occupancy End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="330">  SET ss R Inpt Occupancy End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="331">  SET ss R ICU Occupancy End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="332">  SET ss R ICU Occupancy End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="333">  SET ss R ICU Occupancy End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="334">  SET ss R MedSurg Occupancy End Of Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="335">  SET ss R MedSurg Occupancy End Of Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="336">  SET ss R MedSurg Occupancy End Of Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="337">  SET ss R Outpatient Completed by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="338">  SET ss R Outpatient Completed by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="339">  SET ss R Outpatient Completed by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="340">  SET ss R Turned Away Completed by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="341">  SET ss R Turned Away Completed by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="342">  SET ss R Turned Away Completed by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="343">  SET ss R Home Care Completed by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="344">  SET ss R Home Care Completed by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="345">  SET ss R Home Care Completed by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="346">  SET ss R Inpt Q Time ICU Eligible by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="347">  SET ss R Inpt Q Time ICU Eligible by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="348">  SET ss R Inpt Q Time ICU Eligible by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="349">  SET ss R Inpt Q Time NonICU by Day[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="350">  SET ss R Inpt Q Time NonICU by Day[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="351">  SET ss R Inpt Q Time NonICU by Day[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="352">  SET ss R Outcome Counts[1,TRACKER RUN+1]  =  TRACKER OPEN</VL>
+         <VL Pos="353">  SET ss R Outcome Counts[2,TRACKER RUN+1]  =  TRACKER TRIAL</VL>
+         <VL Pos="354">  SET ss R Outcome Counts[3,TRACKER RUN+1]  =  TRACKER RUN</VL>
+         <VL Pos="355">  ''Label R Care Received Tables with Run Number Column</VL>
+         <VL Pos="356">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+2]  =  "Sought: Home"</VL>
+         <VL Pos="357">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+3]  =  "Sought: OP"</VL>
+         <VL Pos="358">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+4]  =  "Sought: IP"</VL>
+         <VL Pos="359">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+5]  =  "Acuity 1"</VL>
+         <VL Pos="360">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+6]  =  "Acuity 2"</VL>
+         <VL Pos="361">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+7]  =  "Acuity 3"</VL>
+         <VL Pos="362">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+8]  =  "Acuity 4"</VL>
+         <VL Pos="363">  SET ss R Care Received[1,[[TRACKER RUN-1]*8]+9]  =  "Acuity 5"</VL>
+         <VL Pos="364">  LOOP 1 &gt;&gt;&gt; LOOP I &gt;&gt;&gt; 8</VL>
+         <VL Pos="365">    SET ss R Care Received[2,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
+         <VL Pos="366">    SET ss R Care Received[3,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
+         <VL Pos="367">    SET ss R Care Received[4,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
+         <VL Pos="368">    SET ss R Care Received[5,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
+         <VL Pos="369">    SET ss R Care Received[6,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  0</VL>
+         <VL Pos="370">    SET ss R Care Received[7,[[[TRACKER RUN-1]*8]+1]+LOOP I]  =  TRACKER RUN</VL>
+         <VL Pos="371">  IF TRACKER RUNNING_SCENARIOS  =  "Yes"</VL>
+         <VL Pos="372">    Run Simulation    Results Collection Period</VL>
       </LogicSection>
       <LogicSection ID="2484">
          <VL Pos="1">VL SECTION: Function SetUp Labels</VL>
@@ -50688,7 +50688,7 @@
          <VL Pos="3">    'Leave hospital settings alone</VL>
          <VL Pos="4">  ELSE IF gv Unlimited  =  1</VL>
          <VL Pos="5">    'Clear hospitals spreadsheet</VL>
-         <VL Pos="6">    Clear Sheet Area    ss Hospitals[1,1] ,  9 ,  100</VL>
+         <VL Pos="6">    Clear Sheet Area    ss Hospitals[1,1] ,  100 ,  100</VL>
          <VL Pos="7">    Clear Sheet Area    ss Hospital Routing[1,1] ,  3 ,  100</VL>
          <VL Pos="8">    SET lv NumHospitals  =  10</VL>
          <VL Pos="9">    'add default hospitals to the hospitals spreadsheet</VL>
@@ -50894,9 +50894,9 @@
             </Minposition>
             <Position>
                <Left>191</Left>
-               <Top>872</Top>
+               <Top>864</Top>
                <Right>1582</Right>
-               <Bottom>1538</Bottom>
+               <Bottom>1530</Bottom>
             </Position>
             <TitleOffsetX>15</TitleOffsetX>
             <TitleOffsetY>-24</TitleOffsetY>
@@ -52370,7 +52370,7 @@
          <S8L5>Csjuuboz!Ibhfepso</S8L5>
          <S8L6>TJNVM9</S8L6>
          <S8L7>2284.66:9.8529</S8L7>
-         <S8L10>43918.6285954282</S8L10>
+         <S8L10>43920.4825913657</S8L10>
          <S8L8>131702006</S8L8>
       </S8Licensing>
       <Build>24.0.0.3401</Build>
