@@ -6,7 +6,32 @@ Welcome to IDM's COVID-19 Health Systems model!
 
 1. [Project Architecture](#project-architecture)
 1. [How to Set Up, Run and Analyze Your Bed Capacity Model](#how-to-set-up-run-and-analyze-your-bed-capacity-model)
+   1. [Step 1: Acquire Software](#step-1-acquire-software)
+      1. [SIMUL8 Professional](#simul8-professional)
+      1. [R Statistical Package](#r-statistical-package)
+      1. [RStudio](#rstudio)
+      1. [R Project Setup](#r-project-setup)
+   1. [Step 2: How to Acquire the Bed Capacity Model](#step-2-how-to-acquire-the-bed-capacity-model)
+   1. [Step 3: Set Up and Run the Bed Capacity Model](#step-3-set-up-and-run-the-bed-capacity-model)
+      1. [1. Settings](#1-settings)
+      1. [2. Run](#2-run)
+      1. [3. Export](#3-export)
+   1. [Step 4: Open and run the R script analysis](#step-4-open-and-run-the-r-script-analysis)
+   1. [Step 5: Review results](#step-5-review-results)
+   1. [Appendix 1 – Default parameter references](#appendix-1--default-parameter-references)
+      1. [Population age mix](#population-age-mix)
+      1. [Acuity by age](#acuity-by-age)
+      1. [Length of stay](#length-of-stay)
+      1. [Proportion of stay in ICU](#proportion-of-stay-in-icu)
+      1. [Discharge delay](#discharge-delay)
+      1. [Mortality](#mortality)
+   1. [Appendix 2 – Results Files](#appendix-2--results-files)
+      1. [Inputs](#inputs)
+      1. [Inpatient Bed Occupancy](#inpatient-bed-occupancy)
+      1. [Inpatient Bed Placement Delays](#inpatient-bed-placement-delays)
+      1. [Number of Patients Receiving Care](#number-of-patients-receiving-care)
 1. [Authors](#authors)
+1. [Disclaimer](#disclaimer)
 
 
 ## Project Architecture
@@ -31,6 +56,7 @@ The project structure is uses a variation of the [ProjectTemplate] project struc
 ## How to Set Up, Run and Analyze Your Bed Capacity Model
 
 The documentation is broken out into five sections, which will help you through the process.
+
 1.	How to acquire the software you need to install in order to run the model.
 2.	How to access and download the model onto your computer.
 3.	How to set up and run the model (in SIMUL8).
@@ -47,11 +73,25 @@ You can acquire a license for SIMUL8 Professional by contacting sales@SIMUL8.com
 
 #### R Statistical Package
 
-R is a free and open-source statistical analysis program. You can download the software from their website at https://www.r-project.org/. Click on <download R> and then select your preferred source, all of which should be freely available and on the same version of the software. If you run into difficulties, see their help pages at https://www.r-project.org/help.html.
+R (version 3.6 or higher) is a free and open-source statistical analysis program. You can download the software from their website at https://www.r-project.org/. Click on <download R> and then select your preferred source, all of which should be freely available and on the same version of the software. If you run into difficulties, see their help pages at https://www.r-project.org/help.html.
 
-#### R Studio
+#### RStudio
 
-R Studio is a user interface for the R statistical program, with several tiers of software available. You can download the software from their website at https://rstudio.com/products/rstudio/download/. The free desktop version will work fine for these analyses. If you run into difficulties, see their support pages at https://support.rstudio.com/hc/en-us.
+RStudio is a user interface for the R statistical program, with several tiers of software available. You can download the software from their website at https://rstudio.com/products/rstudio/download/. The free desktop version will work fine for these analyses. If you run into difficulties, see their support pages at https://support.rstudio.com/hc/en-us.
+
+#### R Project Setup
+Using the R Console (either Window's R GUI, the commandline version, or via RStudio's console), run the following:
+
+1. Install [ProjectTemplate] for loading the project:
+
+   ```R
+   install.packages("ProjectTemplate")
+   ```
+2. Install the packages required to run the analysis scripts:
+
+   ```R
+   install.packages(c('here', 'ggplot2', 'plyr', 'dplyr', 'scales', 'readxl', 'reshape2', 'gridExtra', 'RColorBrewer', 'viridis'))
+   ```
 
 ### Step 2: How to Acquire the Bed Capacity Model
 
@@ -75,11 +115,11 @@ Do not use the buttons on the ribbon above, as they are not necessary and you wo
 
 There are three buttons on the screen, which allow you to manage the modeling workflow:
 
-    * Settings – This is where you enter assumptions and input your desired modeling scenarios.
+* Settings – This is where you enter assumptions and input your desired modeling scenarios.
 
-    * Run – Once the settings are set up, use the run button to launch the model.
+* Run – Once the settings are set up, use the run button to launch the model.
 
-    * Export – Once the model has finished running, export the results to .csv files.
+* Export – Once the model has finished running, export the results to .csv files.
 
 #### 1. Settings
 
@@ -111,11 +151,11 @@ Navigate to the folder where you saved the model and analysis files when you dow
 
 You must do three things to run the script and produce summary results.
 
-    1. Set the input results name. Set this text description to be identical to the one set in the Export dialogue.
+1. Set the input results name. Set this text description to be identical to the one set in the Export dialogue.
 
-    2. Select the full script. While your cursor is still adjacent to the text you just modified, use the keyboard function of Ctrl+A to select all of the text in the window.
+2. Select the full script. While your cursor is still adjacent to the text you just modified, use the keyboard function of Ctrl+A to select all of the text in the window.
 
-    3. Run the full script. Use Ctrl+Enter or the button indicated in the top right of the image below. It may take a few minutes to complete the analysis, depending on how many repetitions of the model you ran.
+3. Run the full script. Use Ctrl+Enter or the button indicated in the top right of the image below. It may take a few minutes to complete the analysis, depending on how many repetitions of the model you ran.
 
 TBD ADD SCREENSHOT
 
@@ -218,10 +258,7 @@ Attribution-Noncommercial-ShareAlike 4.0 License.
 <!-- References -->
 
 [ProjectTemplate]: http://projecttemplate.net
-[RStudio]: https://rstudio.com
-[Simul8]: https://www.simul8.com
 [analysis]: ./docs/analysis.md
 [license]: ./LICENSE
 [license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
-[model documentation]: ./docs/model.docx
 
