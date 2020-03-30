@@ -3,28 +3,6 @@
 Welcome to IDM's COVID-19 Health Systems model!
 
 
-## Setup
-
-### Pre Requisites
-
-1. Access to [Simul8] Professional
-2. R 3.6+
-3. (Optional) RStudio
-
-### R Project Setup
-
-1. Install [ProjectTemplate] for loading the project:
-
-   ```R
-   install.packages("ProjectTemplate")
-   ```
-2. Install the packages required to run the analysis scripts:
-
-   ```R
-   install.packages(c('here', 'ggplot2', 'plyr', 'dplyr', 'scales', 'readxl', 'reshape2', 'gridExtra', 'RColorBrewer', 'viridis'))
-   ```
-
-
 ## Project Architecture
 
 The project structure is uses a variation of the [ProjectTemplate]
@@ -46,20 +24,16 @@ project structure.
 ├── src/			# Analysis R scripts
 ```
 
-## Getting Started
-
-[Running the model]
-
-[Analysis]
-
-
-## Contributing
-
-See our [contributing guide].
+## How to Set Up, Run and Analyze Your Bed Capacity Model
+The information in the [Documentation File] is broken out into five sections, which will help you through the process. 
+1.	How to acquire the software you need to install in order to run the model.
+2.	How to access and download the model onto your computer.
+3.	How to set up and run the model (in SIMUL8).
+4.	How to open and run the analysis script (in R Studio).
+5.	How to review the results.
 
 
 ## Authors
-
 * Brittany Hagedorn
 
 ---
