@@ -1,5 +1,7 @@
 * text eol=lf
 *.S8 binary
 *.pdf binary
+*.docx binary
+*.DOCX binary
 *.xs8 text diff=xml
 

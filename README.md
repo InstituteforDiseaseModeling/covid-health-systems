@@ -2,11 +2,16 @@
 
 Welcome to IDM's COVID-19 Health Systems model!
 
+[TOC levels=2-4 numbered hierarchy]: # ""
+
+1. [Project Architecture](#project-architecture)
+1. [How to Set Up, Run and Analyze Your Bed Capacity Model](#how-to-set-up-run-and-analyze-your-bed-capacity-model)
+1. [Authors](#authors)
+
 
 ## Project Architecture
 
-The project structure is uses a variation of the [ProjectTemplate]
-project structure.
+The project structure is uses a variation of the [ProjectTemplate] project structure.
 
 ```bash
 ├── config/
@@ -19,7 +24,6 @@ project structure.
 ├── logs/			# Logs
 ├── model/			# Simul8 Models
 ├── output/			# Simul8 Outputs
-│   ├── example/	## Sample Simul8 output
 ├── reports/		# Reports, graphs, plots, and any other re-generateable documents
 ├── src/			# Analysis R scripts
 ```
@@ -192,6 +196,7 @@ There are twelve results files that will export from the model, each with differ
 “S_R_CARE_RECIEVED” – This file reports the total number of patients who received each type of care, broken out by where they sought care first. By default, all patients seek the most appropriate care possible, given their level of acuity.
 x
 ## Authors
+
 * Brittany Hagedorn
 
 ---
@@ -211,13 +216,12 @@ Attribution-Noncommercial-ShareAlike 4.0 License.
 
 
 <!-- References -->
+
 [ProjectTemplate]: http://projecttemplate.net
-[Simul8]: https://www.simul8.com/
-
-[contributing guide]: ./CONTRIBUTING.md
-[Running the model]: ./docs/model.md
+[RStudio]: https://rstudio.com
+[Simul8]: https://www.simul8.com
 [analysis]: ./docs/analysis.md
-
 [license]: ./LICENSE
 [license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+[model documentation]: ./docs/model.docx
 
