@@ -23,9 +23,6 @@ if(require("ProjectTemplate")) install.packages("ProjectTemplate")
 library(ProjectTemplate)
 load.project()
 
-loc.output <- here::here("output")
-#Set working directory to current file location
-
 #Load CSVs
 withr::with_dir(loc.output, {
     ASSUMPTIONS <- read.csv(paste("SS_R_TRIAL_ASSUMPTIONS_TRACKER_",INPUTSET,".csv",sep=""))
@@ -35,7 +32,7 @@ withr::with_dir(loc.output, {
     ICU_QTIME <- read.csv(paste("SS_R_INPT_Q_TIME_ICU_ELIGIBLE_BY_DAY_",INPUTSET,".csv",sep=""))
     TURNEDAWAY <- read.csv(paste("SS_R_TURNED_AWAY_COMPLETED_BY_DAY_",INPUTSET,".csv",sep=""))
     Q_CONTENTS <- read.csv(paste("SS_R_INPT_Q_CONTENTS_END_OF_DAY_",INPUTSET,".csv",sep=""))
-}}
+})
 
 #This is used to name results file PDFs.
 SETLABEL <- INPUTSET
