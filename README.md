@@ -232,7 +232,9 @@ There are twelve results files that will export from the model, each with differ
 “SS_R_TURNEDAWAY_COMPLETED_BY_DAY” – This file reports the number of patients who were turned away because the inpatient delays for placement exceeded the threshold. Each column represents the next day in the simulation run. Each row represents an individual simulation run. By default, these are all patients of level acuity 4 or 5 who did not receive inpatient care even though they needed it.
 
 “S_R_CARE_RECIEVED” – This file reports the total number of patients who received each type of care, broken out by where they sought care first. By default, all patients seek the most appropriate care possible, given their level of acuity.
-x
+
+---
+
 ## Authors
 
 * Brittany Hagedorn
@@ -240,15 +242,11 @@ x
 ---
 ## Disclaimer
 
-The code in this repository was developed by IDM to support our research in
-disease transmission and managing epidemics. We’ve made it publicly available
-under the [Creative Commons Attribution-Noncommercial-ShareAlike 4.0 License][license] to
-provide others with a better understanding of our research and an opportunity to
-build upon it for their own work. We make no representations that the code works
-as intended or that we will provide support, address issues that are found, or
-accept pull requests. You are welcome to create your own fork and modify the
-code to suit your own modeling needs as contemplated under the Creative Commons
-Attribution-Noncommercial-ShareAlike 4.0 License.
+The code in this repository was developed by IDM to support our research in disease transmission and managing epidemics.
+We’ve made it publicly available under the [Creative Commons Attribution-Noncommercial-ShareAlike 4.0 License] to provide others with a better understanding of our research and an opportunity to build upon it for their own work.
+
+We make no representations that the code works as intended or that we will provide support, address issues that are found, or accept pull requests.
+You are welcome to create your own fork and modify the code to suit your own modeling needs as contemplated under the [Creative Commons Attribution-Noncommercial-ShareAlike 4.0 License].
 
 ![Creative Commons License][license-img]
 
@@ -256,7 +254,6 @@ Attribution-Noncommercial-ShareAlike 4.0 License.
 <!-- References -->
 
 [ProjectTemplate]: http://projecttemplate.net
-[analysis]: ./docs/analysis.md
-[license]: ./LICENSE
+[Creative Commons Attribution-Noncommercial-ShareAlike 4.0 License]: ./LICENSE
 [license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 
