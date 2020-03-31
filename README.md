@@ -108,8 +108,8 @@ You need the following software to run the COVID-19 Health Systems model:
 
 ## Set up and run the Health Systems model
 
-1. Launch SIMUL8 and under **File** > **Open** > **Browse Computer** navigate to the open the
-   model/model.xs8 file to open the COVID-19 Health Systems model.
+1. Launch SIMUL8 and under **File** > **Open** > **Browse Computer** navigate to the
+   model/model.S8 file to open the COVID-19 Health Systems model.
 
 2. The first time you open this model, it will be preset with default values. You can use the
    **+/-** in the bottom right of the program if you need to adjust to fit your monitor.
