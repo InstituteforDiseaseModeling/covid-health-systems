@@ -45,8 +45,8 @@ The project structure is uses a variation of the [ProjectTemplate] project struc
 │   ├── globals.R 	# Project-level configuration and variables
 │   └── helpers.R	# Project-level functions
 ├── logs/			# Logs
-├── model/			# Simul8 Models
-├── output/			# Simul8 Outputs
+├── model/			# Simul8 models and analysis summary script
+├── output/			# Simul8 outputs
 ├── reports/		# Reports, graphs, plots, and any other re-generateable documents
 ├── src/			# Analysis R scripts
 ```
@@ -177,8 +177,8 @@ You need the following software to run the COVID-19 Health Systems model:
 1. Navigate to the folder where you saved the model and analysis files when you downloaded them from GitHub.
 2. Double-click to open the R script; it should automatically open in RStudio.
 3. Set the input results name (INPUTSET). Set this text description to be identical to the one set in the SIMUL8 **Export** dialog box.
-4. Press Ctrl+A to select the full script.
-5. Press Ctrl+Enter or the **Run** button in the upper right to run the full script. It may take a few minutes to complete the analysis, depending on how many repetitions of the model you ran.
+4. Press **Ctrl+A** to select the full script.
+5. Press **Ctrl+Enter** or the **Run** button in the upper right to run the full script. It may take a few minutes to complete the analysis, depending on how many repetitions of the model you ran.
 
 
 If you have a preferred alternative to R for statistical analysis, you have the
