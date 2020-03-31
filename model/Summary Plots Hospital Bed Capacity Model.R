@@ -114,6 +114,20 @@ ICU_QTIME$ScenCap = ASSUMPTIONS$ScenCap[ICU_QTIME$Run.Num]
 TURNEDAWAY$ScenCap = ASSUMPTIONS$ScenCap[TURNEDAWAY$Run.Num]
 Q_CONTENTS$ScenCap = ASSUMPTIONS$ScenCap[Q_CONTENTS$Run.Num]
 
+INPT_OCCUP$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[INPT_OCCUP$Run.Num]
+ICU_OCCUP$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[ICU_OCCUP$Run.Num]
+MEDSURG_OCCUP$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[MEDSURG_OCCUP$Run.Num]
+ICU_QTIME$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[ICU_QTIME$Run.Num]
+TURNEDAWAY$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[TURNEDAWAY$Run.Num]
+Q_CONTENTS$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[Q_CONTENTS$Run.Num]
+
+INPT_OCCUP$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[INPT_OCCUP$Run.Num]
+ICU_OCCUP$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[ICU_OCCUP$Run.Num]
+MEDSURG_OCCUP$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[MEDSURG_OCCUP$Run.Num]
+ICU_QTIME$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[ICU_QTIME$Run.Num]
+TURNEDAWAY$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[TURNEDAWAY$Run.Num]
+Q_CONTENTS$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[Q_CONTENTS$Run.Num]
+
 INPT_OCCUP <- subset(INPT_OCCUP,Scenario!="")
 ICU_OCCUP <- subset(ICU_OCCUP,Scenario!="")
 MEDSURG_OCCUP <- subset(MEDSURG_OCCUP,Scenario!="")
@@ -127,17 +141,17 @@ ICU_QTIME <- subset(ICU_QTIME,Scenario!="NA / NA")
 TURNEDAWAY <- subset(TURNEDAWAY,Scenario!="NA / NA")
 Q_CONTENTS <- subset(Q_CONTENTS,Scenario!="NA / NA")
 
-INPT_Melt <- melt(INPT_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+INPT_Melt <- melt(INPT_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                   value.name="Occupancy",variable.name="Day")
-ICU_Melt <- melt(ICU_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+ICU_Melt <- melt(ICU_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                  value.name="Occupancy",variable.name="Day")
-MS_Melt <- melt(MEDSURG_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+MS_Melt <- melt(MEDSURG_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Occupancy",variable.name="Day")
-ICUQ_Melt <- melt(ICU_QTIME,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+ICUQ_Melt <- melt(ICU_QTIME,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Queue_Time",variable.name="Day")
-TA_Melt <- melt(TURNEDAWAY,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+TA_Melt <- melt(TURNEDAWAY,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Number",variable.name="Day")
-QC_Melt <- melt(Q_CONTENTS,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+QC_Melt <- melt(Q_CONTENTS,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Number",variable.name="Day")
 
 INPT_Melt$Day <- as.numeric(gsub("Day.", "", INPT_Melt$Day))
