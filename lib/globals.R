@@ -8,8 +8,11 @@ add.config(
   apply.override = TRUE
 )
 
+loc.output <- here::here("output")
+loc.logs <- here::here("logs")
+
 # Configure logger
-logger.file <- file.path(here::here("logs"), strftime(Sys.time(), "app_%Y-%m-%d.log"))
+logger.file <- file.path(loc.logs, strftime(Sys.time(), "app_%Y-%m-%d.log"))
 logger <-
   logger("DEBUG", appenders = list(
     console_appender(),

@@ -6,21 +6,22 @@ This project incorporates components from the projects listed below.
 
 ---
 
-| Package         | Version | License            |
-|:----------------|:--------|:-------------------|
-| ProjectTemplate | 0.9.0   | [GPL-3]              |
-| RColorBrewer    | 1.1-2   | [Apache License 2.0] |
-| dplyr           | 0.8.4   | [MIT]                |
-| ggplot2         | 3.2.1   | [GPL-2]              |
-| gridExtra       | 2.3     | [GPL-2.0-or-later]   |
-| here            | 0.1     | [GPL-3]              |
-| log4r           | 0.3.2   | [Artistic-2.0]       |
-| plyr            | 1.8.5   | [MIT]              |
-| readxl          | 1.3.1   | [GPL-3]              |
-| reshape2        | 1.4.3   | [MIT]                |
-| scales          | 1.1.0   | [MIT]                |
-| viridis         | 0.5.1   | [MIT]                |
-| viridisLite     | 0.3.0   | [MIT]                |
+| Package         | Version | License              | URL                                                                |
+|:----------------|:--------|:---------------------|:-------------------------------------------------------------------|
+| dplyr           | 0.8.4   | [MIT]                | http://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr     |
+| ggplot2         | 3.2.1   | [GPL-2]              | http://ggplot2.tidyverse.org, https://github.com/tidyverse/ggplot2 |
+| gridExtra       | 2.3     | [GPL-2]              | -                                                                  |
+| here            | 0.1     | [GPL-3]              | https://github.com/krlmlr/here, http://krlmlr.github.io/here       |
+| log4r           | 0.3.2   | [Artistic-2.0]       | https://github.com/johnmyleswhite/log4r                            |
+| plyr            | 1.8.5   | [MIT]                | http://had.co.nz/plyr, https://github.com/hadley/plyr              |
+| ProjectTemplate | 0.9.0   | [GPL-3]              | http://projecttemplate.net                                         |
+| RColorBrewer    | 1.1-2   | [Apache License 2.0] | -                                                                  |
+| readxl          | 1.3.1   | [GPL-3]              | https://readxl.tidyverse.org, https://github.com/tidyverse/readxl  |
+| reshape2        | 1.4.3   | [MIT]                | https://github.com/hadley/reshape                                  |
+| scales          | 1.1.0   | [MIT]                | https://scales.r-lib.org, https://github.com/r-lib/scales          |
+| viridis         | 0.5.1   | [MIT]                | https://github.com/sjmgarnier/viridis                              |
+| viridisLite     | 0.3.0   | [MIT]                | https://github.com/sjmgarnier/viridisLite                          |
+| withr           | 2.1.2   | [GPL-2]              | http://withr.r-lib.org, http://github.com/r-lib/withr#readme       |
 
 ---
 
