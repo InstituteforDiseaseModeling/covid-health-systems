@@ -114,6 +114,20 @@ ICU_QTIME$ScenCap = ASSUMPTIONS$ScenCap[ICU_QTIME$Run.Num]
 TURNEDAWAY$ScenCap = ASSUMPTIONS$ScenCap[TURNEDAWAY$Run.Num]
 Q_CONTENTS$ScenCap = ASSUMPTIONS$ScenCap[Q_CONTENTS$Run.Num]
 
+INPT_OCCUP$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[INPT_OCCUP$Run.Num]
+ICU_OCCUP$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[ICU_OCCUP$Run.Num]
+MEDSURG_OCCUP$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[MEDSURG_OCCUP$Run.Num]
+ICU_QTIME$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[ICU_QTIME$Run.Num]
+TURNEDAWAY$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[TURNEDAWAY$Run.Num]
+Q_CONTENTS$TotalNumBedsAAC = ASSUMPTIONS$TotalNumBedsAAC[Q_CONTENTS$Run.Num]
+
+INPT_OCCUP$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[INPT_OCCUP$Run.Num]
+ICU_OCCUP$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[ICU_OCCUP$Run.Num]
+MEDSURG_OCCUP$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[MEDSURG_OCCUP$Run.Num]
+ICU_QTIME$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[ICU_QTIME$Run.Num]
+TURNEDAWAY$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[TURNEDAWAY$Run.Num]
+Q_CONTENTS$TotalNumBedsICU = ASSUMPTIONS$TotalNumBedsICU[Q_CONTENTS$Run.Num]
+
 INPT_OCCUP <- subset(INPT_OCCUP,Scenario!="")
 ICU_OCCUP <- subset(ICU_OCCUP,Scenario!="")
 MEDSURG_OCCUP <- subset(MEDSURG_OCCUP,Scenario!="")
@@ -127,17 +141,17 @@ ICU_QTIME <- subset(ICU_QTIME,Scenario!="NA / NA")
 TURNEDAWAY <- subset(TURNEDAWAY,Scenario!="NA / NA")
 Q_CONTENTS <- subset(Q_CONTENTS,Scenario!="NA / NA")
 
-INPT_Melt <- melt(INPT_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+INPT_Melt <- melt(INPT_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                   value.name="Occupancy",variable.name="Day")
-ICU_Melt <- melt(ICU_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+ICU_Melt <- melt(ICU_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                  value.name="Occupancy",variable.name="Day")
-MS_Melt <- melt(MEDSURG_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+MS_Melt <- melt(MEDSURG_OCCUP,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Occupancy",variable.name="Day")
-ICUQ_Melt <- melt(ICU_QTIME,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+ICUQ_Melt <- melt(ICU_QTIME,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Queue_Time",variable.name="Day")
-TA_Melt <- melt(TURNEDAWAY,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+TA_Melt <- melt(TURNEDAWAY,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Number",variable.name="Day")
-QC_Melt <- melt(Q_CONTENTS,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap"),
+QC_Melt <- melt(Q_CONTENTS,id=c("Trial.Num","Run.Num","Scenario","Type","ScenEpi","ScenCap","TotalNumBedsICU","TotalNumBedsAAC"),
                 value.name="Number",variable.name="Day")
 
 INPT_Melt$Day <- as.numeric(gsub("Day.", "", INPT_Melt$Day))
@@ -196,12 +210,12 @@ ICUQ_Melt$Type <- factor(ICUQ_Melt$Type,ordered=TRUE,levels=value_list)
 TA_Melt$Type <- factor(TA_Melt$Type,ordered=TRUE,levels=value_list)
 QC_Melt$Type <- factor(QC_Melt$Type,ordered=TRUE,levels=value_list)
 
-INPT_Melt_Avg <- ddply(INPT_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap),summarize,Occupancy_Sm=mean(Occupancy))
-ICU_Melt_Avg <- ddply(ICU_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap),summarize,Occupancy_Sm=mean(Occupancy))
-MS_Melt_Avg <- ddply(MS_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap),summarize,Occupancy_Sm=mean(Occupancy))
-ICUQ_Melt_Avg <- ddply(ICUQ_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap),summarize,Time_Sm=mean(Queue_Time))
-TA_Melt_Avg <- ddply(TA_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap),summarize,Number_Sm=mean(Number))
-QC_Melt_Avg <- ddply(QC_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap),summarize,Number_Sm=mean(Number))
+INPT_Melt_Avg <- ddply(INPT_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap,TotalNumBedsAAC,TotalNumBedsICU),summarize,Occupancy_Sm=mean(Occupancy))
+ICU_Melt_Avg <- ddply(ICU_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap,TotalNumBedsAAC,TotalNumBedsICU),summarize,Occupancy_Sm=mean(Occupancy))
+MS_Melt_Avg <- ddply(MS_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap,TotalNumBedsAAC,TotalNumBedsICU),summarize,Occupancy_Sm=mean(Occupancy))
+ICUQ_Melt_Avg <- ddply(ICUQ_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap,TotalNumBedsAAC,TotalNumBedsICU),summarize,Time_Sm=mean(Queue_Time))
+TA_Melt_Avg <- ddply(TA_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap,TotalNumBedsAAC,TotalNumBedsICU),summarize,Number_Sm=mean(Number))
+QC_Melt_Avg <- ddply(QC_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap,TotalNumBedsAAC,TotalNumBedsICU),summarize,Number_Sm=mean(Number))
 
 p1b <- ggplot(data=ICU_Melt_Avg,aes(x=Day/7,y=Occupancy_Sm,group=Type))+
   geom_line(aes(linetype=Type))+theme_bw()+facet_wrap(~Scenario) +
@@ -224,9 +238,10 @@ TA_Melt_SD <- ddply(TA_Melt,.(Scenario,Type,Day),summarize,Number_se=sqrt(var(Nu
 QC_Melt_SD <- ddply(QC_Melt,.(Scenario,Type,Day),summarize,Number_se=sqrt(var(Number)))
 
 ICU_Sub <- ICU_Melt_Avg
-ICU_Sub$Lower <- ICU_Melt_Avg$Occupancy_Sm - ICU_Melt_SD$Occupancy_se*1.96*7
-ICU_Sub$Upper <- ICU_Melt_Avg$Occupancy_Sm + ICU_Melt_SD$Occupancy_se*1.96*7
+ICU_Sub$Lower <- ICU_Melt_Avg$Occupancy_Sm - ICU_Melt_SD$Occupancy_se*1.96*3
+ICU_Sub$Upper <- ICU_Melt_Avg$Occupancy_Sm + ICU_Melt_SD$Occupancy_se*1.96*3
 ICU_Sub$Lower[ICU_Sub$Lower < 0] = 0
+ICU_Sub$Upper[ICU_Sub$Upper > ICU_Sub$TotalNumBedsICU] = ICU_Sub$TotalNumBedsICU[ICU_Sub$Upper > ICU_Sub$TotalNumBedsICU]
 p1cross <- ggplot(data=ICU_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
   geom_ribbon(data=ICU_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
@@ -237,6 +252,7 @@ p1cross <- ggplot(data=ICU_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
 
 ICU_Sub <- subset(ICU_Sub,Type=="Median Case Epi")
 ICU_Sub$Lower[ICU_Sub$Lower<0]=0
+ICU_Sub$Upper[ICU_Sub$Upper > ICU_Sub$TotalNumBedsICU] = ICU_Sub$TotalNumBedsICU[ICU_Sub$Upper > ICU_Sub$TotalNumBedsICU]
 p1c <- ggplot(data=ICU_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario,color=Scenario))+
   geom_ribbon(data=ICU_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
@@ -249,6 +265,7 @@ MS_Sub <- MS_Melt_Avg
 MS_Sub$Lower <- MS_Melt_Avg$Occupancy_Sm - MS_Melt_SD$Occupancy_se*1.96*3
 MS_Sub$Upper <- MS_Melt_Avg$Occupancy_Sm + MS_Melt_SD$Occupancy_se*1.96*3
 MS_Sub$Lower[MS_Sub$Lower < 0] = 0
+MS_Sub$Upper[MS_Sub$Upper > MS_Sub$TotalNumBedsAAC] = MS_Sub$TotalNumBedsAAC[MS_Sub$Upper > MS_Sub$TotalNumBedsAAC]
 p2cross <- ggplot(data=MS_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
   geom_ribbon(data=MS_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
@@ -259,6 +276,7 @@ p2cross <- ggplot(data=MS_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
 
 MS_Sub <- subset(MS_Sub,Type=="Median Case Epi")
 MS_Sub$Lower[MS_Sub$Lower<0]=0
+MS_Sub$Upper[MS_Sub$Upper > MS_Sub$TotalNumBedsAAC] = MS_Sub$TotalNumBedsAAC[MS_Sub$Upper > MS_Sub$TotalNumBedsAAC]
 p2c <- ggplot(data=MS_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario,color=Scenario))+
   geom_ribbon(data=MS_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
