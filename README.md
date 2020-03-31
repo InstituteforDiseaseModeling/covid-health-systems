@@ -155,7 +155,7 @@ You need the following software to run the COVID-19 Health Systems model:
             forward. Once the model is finished running, it will alert you that
             the results are ready for export. Click **OK**.
 
-      c. **Export** – Once the model has finished running, export the results to .csv files.
+      c. **Export** – Once the model has finished running, export the results to CSV files.
 
             Click **Export**. A dialog box will appear that asks you to name the
             results and to input a save destination. We recommend using a unique
@@ -182,14 +182,14 @@ You need the following software to run the COVID-19 Health Systems model:
 
 
 If you have a preferred alternative to R for statistical analysis, you have the
-option to load the .csv files which contain the model results into whatever
+option to load the CSV files which contain the model results into whatever
 program you choose. However, the analytics script included in this repository
 will not be usable in a different program. We recommend that you run the
 analysis script as in the R program first and then evaluate your needs for
 reanalysis. If you would like to learn more about scripting in R, DataCamp offers
 an [Introduction to R course](https://www.datacamp.com/courses/free-introduction-to-r).
 
-For more information on the raw results .csv files, see Appendix 2.
+For more information on the raw results CSV files, see Appendix 2.
 
 ## Review results
 
@@ -255,13 +255,13 @@ There are twelve results files that will export from the model, each with differ
 
 “SS_R_OUTCOME_COUNTS” – This file reports the total number of patients who received each type of care over the duration of the simulation run.
 
-“SS_R_OUTPAIENT_COMPLETED_BY_DAY” – This file reports the number of patients who received outpatient care on a given day. Each column represents the next day in the simulation run. Each row represents an individual simulation run. By default, these are all patients of level acuity 3.
+“SS_R_OUTPATIENT_COMPLETED_BY_DAY” – This file reports the number of patients who received outpatient care on a given day. Each column represents the next day in the simulation run. Each row represents an individual simulation run. By default, these are all patients of level acuity 3.
 
 “SS_R_HOME_CARE_COMPLETED_BY_DAY” – This file reports the number of patients who received home care on a given day. Each column represents the next day in the simulation run. Each row represents an individual simulation run. By default, these are all patients of level acuity 2.
 
 “SS_R_TURNEDAWAY_COMPLETED_BY_DAY” – This file reports the number of patients who were turned away because the inpatient delays for placement exceeded the threshold. Each column represents the next day in the simulation run. Each row represents an individual simulation run. By default, these are all patients of level acuity 4 or 5 who did not receive inpatient care even though they needed it.
 
-“S_R_CARE_RECIEVED” – This file reports the total number of patients who received each type of care, broken out by where they sought care first. By default, all patients seek the most appropriate care possible, given their level of acuity.
+“S_R_CARE_RECEIVED” – This file reports the total number of patients who received each type of care, broken out by where they sought care first. By default, all patients seek the most appropriate care possible, given their level of acuity.
 
 ---
 
