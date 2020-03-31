@@ -8,7 +8,7 @@
 # Manually Input Your Export Name Here
 # When you exported your simulation results, you assigned a file name, such as "March 28-DemoRun".
 # Enter the exact same text between the " " in the line below, replacing the example text.
-INPUTSET <- "DEMOMODELRUN1" 
+INPUTSET <- "DEMOMODELRUN1"
 
 
 ################################################################################################################
@@ -17,29 +17,25 @@ INPUTSET <- "DEMOMODELRUN1"
 # Do Not Edit Below
 ################################################################################################################
 
-list.of.packages <- c("ggplot2", "plyr","dplyr","scales","reshape2","gridExtra","RColorBrewer")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
+# Install and load ProjectTemplate. It will handle installing and loading any additional
+if(require("ProjectTemplate")) install.packages("ProjectTemplate")
 
-library(ggplot2)
-library(plyr)
-library(dplyr)
-library(scales)
-library(reshape2)
-library(gridExtra)
-library(RColorBrewer)
+library(ProjectTemplate)
+load.project()
 
+loc.output <- here::here("output")
 #Set working directory to current file location
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #Load CSVs
-ASSUMPTIONS <- read.csv(paste("SS_R_TRIAL_ASSUMPTIONS_TRACKER_",INPUTSET,".csv",sep=""))
-INPT_OCCUP <- read.csv(paste("SS_R_INPT_OCCUPANCY_END_OF_DAY_",INPUTSET,".csv",sep=""))
-ICU_OCCUP <- read.csv(paste("SS_R_ICU_OCCUPANCY_END_OF_DAY_",INPUTSET,".csv",sep=""))
-MEDSURG_OCCUP <- read.csv(paste("SS_R_MEDSURG_OCCUPANCY_END_OF_DAY_",INPUTSET,".csv",sep=""))
-ICU_QTIME <- read.csv(paste("SS_R_INPT_Q_TIME_ICU_ELIGIBLE_BY_DAY_",INPUTSET,".csv",sep=""))
-TURNEDAWAY <- read.csv(paste("SS_R_TURNED_AWAY_COMPLETED_BY_DAY_",INPUTSET,".csv",sep=""))
-Q_CONTENTS <- read.csv(paste("SS_R_INPT_Q_CONTENTS_END_OF_DAY_",INPUTSET,".csv",sep=""))
+withr::with_dir(loc.output, {
+    ASSUMPTIONS <- read.csv(paste("SS_R_TRIAL_ASSUMPTIONS_TRACKER_",INPUTSET,".csv",sep=""))
+    INPT_OCCUP <- read.csv(paste("SS_R_INPT_OCCUPANCY_END_OF_DAY_",INPUTSET,".csv",sep=""))
+    ICU_OCCUP <- read.csv(paste("SS_R_ICU_OCCUPANCY_END_OF_DAY_",INPUTSET,".csv",sep=""))
+    MEDSURG_OCCUP <- read.csv(paste("SS_R_MEDSURG_OCCUPANCY_END_OF_DAY_",INPUTSET,".csv",sep=""))
+    ICU_QTIME <- read.csv(paste("SS_R_INPT_Q_TIME_ICU_ELIGIBLE_BY_DAY_",INPUTSET,".csv",sep=""))
+    TURNEDAWAY <- read.csv(paste("SS_R_TURNED_AWAY_COMPLETED_BY_DAY_",INPUTSET,".csv",sep=""))
+    Q_CONTENTS <- read.csv(paste("SS_R_INPT_Q_CONTENTS_END_OF_DAY_",INPUTSET,".csv",sep=""))
+}}
 
 #This is used to name results file PDFs.
 SETLABEL <- INPUTSET
@@ -227,7 +223,7 @@ p2b <- ggplot(data=MS_Melt_Avg,aes(x=Day/7,y=Occupancy_Sm,group=Type))+
   geom_line(aes(linetype=Type))+theme_bw()+facet_wrap(~Scenario)+
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
   labs(title="Adult Acute Bed Occupancy")+
-  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Avg$Day/7)),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Avg$Day/7)),by=3))+
   theme(legend.title = element_blank())
 
 INPT_Melt_SD <- ddply(INPT_Melt,.(Scenario,Type,Day),summarize,Occupancy_se=sqrt(var(Occupancy)))
@@ -247,7 +243,7 @@ p1cross <- ggplot(data=ICU_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
   geom_line()+theme_bw() +
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
   labs(title="ICU Bed Occupancy")+
-  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Avg$Day/7)),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Avg$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
 
 ICU_Sub <- subset(ICU_Sub,Type=="Median Case Epi")
@@ -258,7 +254,7 @@ p1c <- ggplot(data=ICU_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario,color=Scena
   geom_line()+theme_bw() +
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
   labs(title="ICU Bed Occupancy (Median Epi Curves)")+
-  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICU_Sub$Day/7)),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICU_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) + facet_wrap(~Scenario)
 
 MS_Sub <- MS_Melt_Avg
@@ -271,7 +267,7 @@ p2cross <- ggplot(data=MS_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
   geom_line()+theme_bw() +
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
   labs(title="Adult Acute Bed Occupancy")+
-  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Sub$Day/7)),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
 
 MS_Sub <- subset(MS_Sub,Type=="Median Case Epi")
@@ -282,7 +278,7 @@ p2c <- ggplot(data=MS_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario,color=Scenar
   geom_line()+theme_bw() +
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
   labs(title="Adult Acute Bed Occupancy (Median Epi Curves)") +
-  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Sub$Day/7)),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) + facet_wrap(~Scenario)
 
 ICUQ_Sub <- ICUQ_Melt_Avg
@@ -294,7 +290,7 @@ p3cross <- ggplot(data=ICUQ_Sub,aes(x=Day/7,y=Time_Sm/60,group=Scenario))+
   geom_line()+theme_bw() +
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Hours") +
   labs(title="Mean Queueing Time (hrs)",subtitle="Note: Flat lines at 0 indicate no patients experienced placement delays")+
-  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICUQ_Sub$Day/7)),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICUQ_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
 
 TA_Sub <- TA_Melt_Avg
@@ -306,7 +302,7 @@ p4cross <- ggplot(data=TA_Sub,aes(x=Day/7,y=Number_Sm,group=Scenario))+
   geom_line()+theme_bw() +
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Number Turned Away") +
   labs(title="Number of Patients Turned Away",subtitle="Note: Flat lines at 0 indicate no patients were turned away")+
-  scale_x_continuous(breaks=seq(from=1,to=max(TA_Sub$Day/7),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=max(TA_Sub$Day/7),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
 
 QC_Sub <- QC_Melt_Avg
@@ -318,14 +314,14 @@ p5cross <- ggplot(data=QC_Sub,aes(x=Day/7,y=Number_Sm,group=Scenario))+
   geom_line()+theme_bw() +
   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Number of Patients") +
   labs(title="Number of Patients Waiting for an Inpatient Bed",subtitle="Note: Flat lines at 0 indicate no patients were delayed")+
-  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(QC_Sub$Day/7)),by=3))+ 
+  scale_x_continuous(breaks=seq(from=1,to=ceiling(max(QC_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
 
 INPT_Melt_Cast <- dcast(INPT_Melt_Avg, Scenario+Day~Type, mean)
 ICU_Melt_Cast <- dcast(ICU_Melt_Avg, Scenario+Day~Type, mean)
 MS_Melt_Cast <- dcast(MS_Melt_Avg, Scenario+Day~Type, mean)
 
-# p1 <- ggplot(data=ICU_Melt_Cast,aes(x=Day/7,y='Median Case Epi')) + 
+# p1 <- ggplot(data=ICU_Melt_Cast,aes(x=Day/7,y='Median Case Epi')) +
 #   geom_ribbon(data=ICU_Melt_Cast,aes(ymin='Best Case Epi',ymax='Upper Bound'),fill="darkblue",alpha=.5) +
 #   geom_line(data=ICU_Melt_Cast,aes(x=Day/7,y='Best Case Epi'),color="darkgrey")+
 #   geom_line(data=ICU_Melt_Cast,aes(x=Day/7,y='Median Case Epi'),color="black")+
@@ -333,10 +329,10 @@ MS_Melt_Cast <- dcast(MS_Melt_Avg, Scenario+Day~Type, mean)
 #   theme_bw()+facet_wrap(~Scenario) +
 #   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
 #   labs(title="ICU Bed Occupancy (Epi Uncertainty)") + scale_y_continuous(labels = comma) +
-#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICU_Melt_Cast$Day/7)),by=3))+ 
+#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICU_Melt_Cast$Day/7)),by=3))+
 #   theme(legend.title = element_blank())
-# 
-# p2 <- ggplot(data=MS_Melt_Cast,aes(x=Day/7,y='Median Case Epi')) + 
+#
+# p2 <- ggplot(data=MS_Melt_Cast,aes(x=Day/7,y='Median Case Epi')) +
 #   geom_ribbon(data=MS_Melt_Cast,aes(xmin=1,xmax=7,ymin='Best Case Epi',ymax='Upper Bound'),fill="darkgreen",alpha=.5) +
 #   geom_line(data=MS_Melt_Cast,aes(x=Day/7,y='Best Case Epi'),color="darkgrey")+
 #   geom_line(data=MS_Melt_Cast,aes(x=Day/7,y='Median Case Epi'),color="black")+
@@ -344,39 +340,40 @@ MS_Melt_Cast <- dcast(MS_Melt_Avg, Scenario+Day~Type, mean)
 #   theme_bw()+facet_wrap(~Scenario) +
 #   xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
 #   labs(title="Acute Adult Bed Occupancy (Epi Uncertainty)") + scale_y_continuous(labels = comma)+
-#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Cast$Day/7)),by=3))+ 
+#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Cast$Day/7)),by=3))+
 #   theme(legend.title = element_blank())
-# 
+#
 # p3 <- ggplot(data=ICU_Melt_Cast,aes(x=Day/7,y='Median Case Epi',group=Scenario,color=Scenario)) +
-#   geom_line() + theme_bw() + xlab("Weeks since prevalence of 100/10,000 population") + 
+#   geom_line() + theme_bw() + xlab("Weeks since prevalence of 100/10,000 population") +
 #   ylab("Bed Occupancy") + labs(title="ICU Bed Occupancy (Median Epi Curve)") +
 #   scale_color_brewer(type="qual",palette = "Dark2") + scale_y_continuous(labels = comma)+
-#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICU_Melt_Cast$Day/7)),by=3))+ 
+#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICU_Melt_Cast$Day/7)),by=3))+
 #   theme(legend.title = element_blank())
-# 
+#
 # p3b <- p3 + scale_y_continuous(labels = comma,limits=c(0,max(MS_Melt_Cast$Expected*1.02)))
-# 
+#
 # p4 <- ggplot(data=MS_Melt_Cast,aes(x=Day/7,y='Median Case Epi',group=Scenario,color=Scenario)) +
-#   geom_line() + theme_bw() + xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") + 
-#   labs(title="Acute Adult Bed Occupancy (Median Epi Curve)") + 
-#   scale_y_continuous(labels = comma,limits=c(0,max(MS_Melt_Cast$Expected*1.02))) + 
+#   geom_line() + theme_bw() + xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
+#   labs(title="Acute Adult Bed Occupancy (Median Epi Curve)") +
+#   scale_y_continuous(labels = comma,limits=c(0,max(MS_Melt_Cast$Expected*1.02))) +
 #   scale_color_brewer(type="qual",palette = "Dark2") +
-#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Cast$Day/7)),by=3)) + 
+#   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Cast$Day/7)),by=3)) +
 #   theme(legend.title = element_blank())
+withr::with_dir(loc.output, {
+  write.csv(ICU_Melt_Cast,paste(SETLABEL,"_ICU_Cast_Summary.csv"))
+  write.csv(MS_Melt_Cast,paste(SETLABEL,"_MS_Cast_Summary.csv"))
+  write.csv(INPT_Melt_Cast,paste(SETLABEL,"_INPT_Cast_Summary.csv"))
 
-write.csv(ICU_Melt_Cast,paste(SETLABEL,"_ICU_Cast_Summary.csv"))
-write.csv(MS_Melt_Cast,paste(SETLABEL,"_MS_Cast_Summary.csv"))
-write.csv(INPT_Melt_Cast,paste(SETLABEL,"_INPT_Cast_Summary.csv"))
-
-wv <- length(unique(ASSUMPTIONS$Scenario))*3.5
-pdf(paste(SETLABEL,"_ICUandAACbeds_plots1.pdf",sep=""),width=wv,height=9)
-plot(p1b)
-plot(p2b)
-plot(p1c)
-plot(p2c)
-plot(p1cross)
-plot(p2cross)
-plot(p3cross)
-plot(p4cross)
-plot(p5cross)
-dev.off()
+  wv <- length(unique(ASSUMPTIONS$Scenario))*3.5
+  pdf(paste(SETLABEL,"_ICUandAACbeds_plots1.pdf",sep=""),width=wv,height=9)
+  plot(p1b)
+  plot(p2b)
+  plot(p1c)
+  plot(p2c)
+  plot(p1cross)
+  plot(p2cross)
+  plot(p3cross)
+  plot(p4cross)
+  plot(p5cross)
+  dev.off()
+})
