@@ -18,8 +18,6 @@ INPUTSET <- "DEMOMODELRUN1"
 ################################################################################################################
 
 # Install and load ProjectTemplate. It will handle installing and loading any additional
-if(require("ProjectTemplate")) install.packages("ProjectTemplate")
-
 library(ProjectTemplate)
 load.project()
 
