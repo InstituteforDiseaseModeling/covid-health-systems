@@ -7,3 +7,11 @@ add.config(
 add.config(
   apply.override = TRUE
 )
+
+# Configure logger
+logger.file <- file.path(here::here("logs"), strftime(Sys.time(), "app_%Y-%m-%d.log"))
+logger <-
+  logger("DEBUG", appenders = list(
+    console_appender(),
+    file_appender(file = logger.file, append = T)
+  ))

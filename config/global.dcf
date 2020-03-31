@@ -8,7 +8,7 @@ munging: TRUE
 logging: TRUE
 logging_level: INFO
 load_libraries: TRUE
-libraries: here, ggplot2, plyr, dplyr, scales, readxl, reshape2, gridExtra, RColorBrewer, viridis 
+libraries: here, ggplot2, plyr, dplyr, scales, readxl, reshape2, gridExtra, RColorBrewer, viridis, withr
 as_factors: FALSE
 tables_type: tibble
 attach_internal_libraries: FALSE
