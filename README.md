@@ -95,9 +95,7 @@ Using the R Console (either Window's R GUI, the commandline version, or via RStu
 
 ### Step 2: How to Acquire the Bed Capacity Model
 
-Next, you will need to download the model itself. You can access this from the GitHub repository here:
-
-____________________________________. You will want to download the entire package and save into a convenient location on your computer. Leave all of the files in one folder location, so that when you export your results files from the model after it has run, they will be automatically available to the R script for analysis.
+You will want to download the entire package and save into a convenient location on your computer. Save all of the files into a single folder location, so that when you export your results files from the model after it has run, they will be automatically available to the R script for analysis.
 
 ###  Step 3: Set Up and Run the Bed Capacity Model
 
