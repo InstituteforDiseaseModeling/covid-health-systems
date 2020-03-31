@@ -69,7 +69,7 @@ You will need to have SIMUL8 Professional (a discrete event simulation software)
 
 #### SIMUL8 Professional
 
-You can acquire a license for SIMUL8 Professional by contacting sales@SIMUL8.com. As of this document’s writing, the company is providing free 90-day licenses for analysts working on COVID-19 preparation and you should inform them of this in your request. Follow their instructions to install the software on your computer. If you run into difficulties, see their [help pages][https://support.simul8.com/] or contact support@SIMUL8.com.
+You can acquire a license for SIMUL8 Professional by contacting sales@SIMUL8.com. As of this document’s writing, the company is providing free 90-day licenses for analysts working on COVID-19 preparation and you should inform them of this in your request. Follow their instructions to install the software on your computer. If you run into difficulties, see their [help pages][https://support.simul8.com/] or contact support@SIMUL8.com. Once you have installed SIMUL8, it is recommended that you open and close the program once prior to opening the model file; this will override the automatically-generated new installation orientation. 
 
 #### R Statistical Package
 
