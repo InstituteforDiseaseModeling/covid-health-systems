@@ -118,7 +118,7 @@ You need the following software to run the COVID-19 Health Systems model:
    this model.
 
    a. **Settings** – Enter assumptions and input your desired modeling scenarios.
-   + The settings dialog boxes walk you through all of the parameters that need to be reviewed and set prior to starting the simulation run. Source data for the default parameters are listed in the
+   + The settings dialog boxes walk you through all of the parameters that need to be reviewed and set prior to starting the simulation run. For details on each of the parameters built into the model, see this [model walkthrough video](https://youtu.be/AH3P_JmKQeY). Source data for the default parameters are listed in the
      appendix of this document. There are two ways to run the model:
 
      * Unlimited: Estimates how many inpatient beds you will need in order to serve your patient population.
