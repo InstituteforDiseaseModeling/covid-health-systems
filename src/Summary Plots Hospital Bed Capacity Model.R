@@ -6,7 +6,7 @@
 ################################################################################################################
 
 # Manually Input Your Export Name Here
-# When you exported your simulation results, you assigned a file name, such as "March 28-DemoRun".
+# When you exported your simulation results, you assigned a file name, such as "DEMOMODELRUN1".
 # Enter the exact same text between the " " in the line below, replacing the example text.
 INPUTSET <- "DEMOMODELRUN1"
 
@@ -210,13 +210,13 @@ QC_Melt_Avg <- ddply(QC_Melt,.(Scenario,Type,Day,ScenEpi,ScenCap,TotalNumBedsAAC
 
 p1b <- ggplot(data=ICU_Melt_Avg,aes(x=Day/7,y=Occupancy_Sm,group=Type))+
   geom_line(aes(linetype=Type))+theme_bw()+facet_wrap(~Scenario) +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Bed Occupancy") +
   labs(title="ICU Bed Occupancy") + theme(legend.title=element_blank())
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Avg$Day/7)),by=3))
 
 p2b <- ggplot(data=MS_Melt_Avg,aes(x=Day/7,y=Occupancy_Sm,group=Type))+
   geom_line(aes(linetype=Type))+theme_bw()+facet_wrap(~Scenario)+
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Bed Occupancy") +
   labs(title="Adult Acute Bed Occupancy")+
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Avg$Day/7)),by=3))+
   theme(legend.title = element_blank())
@@ -236,7 +236,7 @@ ICU_Sub$Upper[ICU_Sub$Upper > ICU_Sub$TotalNumBedsICU] = ICU_Sub$TotalNumBedsICU
 p1cross <- ggplot(data=ICU_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
   geom_ribbon(data=ICU_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Bed Occupancy") +
   labs(title="ICU Bed Occupancy")+
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Melt_Avg$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
@@ -247,7 +247,7 @@ ICU_Sub$Upper[ICU_Sub$Upper > ICU_Sub$TotalNumBedsICU] = ICU_Sub$TotalNumBedsICU
 p1c <- ggplot(data=ICU_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario,color=Scenario))+
   geom_ribbon(data=ICU_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Bed Occupancy") +
   labs(title="ICU Bed Occupancy (Median Epi Curves)")+
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICU_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) + facet_wrap(~Scenario)
@@ -260,7 +260,7 @@ MS_Sub$Upper[MS_Sub$Upper > MS_Sub$TotalNumBedsAAC] = MS_Sub$TotalNumBedsAAC[MS_
 p2cross <- ggplot(data=MS_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario))+
   geom_ribbon(data=MS_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Bed Occupancy") +
   labs(title="Adult Acute Bed Occupancy")+
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
@@ -271,7 +271,7 @@ MS_Sub$Upper[MS_Sub$Upper > MS_Sub$TotalNumBedsAAC] = MS_Sub$TotalNumBedsAAC[MS_
 p2c <- ggplot(data=MS_Sub,aes(x=Day/7,y=Occupancy_Sm,group=Scenario,color=Scenario))+
   geom_ribbon(data=MS_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Bed Occupancy") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Bed Occupancy") +
   labs(title="Adult Acute Bed Occupancy (Median Epi Curves)") +
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(MS_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) + facet_wrap(~Scenario)
@@ -283,7 +283,7 @@ ICUQ_Sub$Lower[ICUQ_Sub$Lower < 0] = 0
 p3cross <- ggplot(data=ICUQ_Sub,aes(x=Day/7,y=Time_Sm/60,group=Scenario))+
   geom_ribbon(data=ICUQ_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Hours") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Hours") +
   labs(title="Mean Queueing Time (hrs)",subtitle="Note: Flat lines at 0 indicate no patients experienced placement delays")+
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(ICUQ_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
@@ -295,7 +295,7 @@ TA_Sub$Lower[TA_Sub$Lower < 0] = 0
 p4cross <- ggplot(data=TA_Sub,aes(x=Day/7,y=Number_Sm,group=Scenario))+
   geom_ribbon(data=TA_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Number Turned Away") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Number Turned Away") +
   labs(title="Number of Patients Turned Away",subtitle="Note: Flat lines at 0 indicate no patients were turned away")+
   scale_x_continuous(breaks=seq(from=1,to=max(TA_Sub$Day/7),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
@@ -307,7 +307,7 @@ QC_Sub$Lower[QC_Sub$Lower < 0] = 0
 p5cross <- ggplot(data=QC_Sub,aes(x=Day/7,y=Number_Sm,group=Scenario))+
   geom_ribbon(data=QC_Sub,aes(ymin=Lower,ymax=Upper,fill=Scenario),alpha=.5) +
   geom_line()+theme_bw() +
-  xlab("Weeks since prevalence of 100/10,000 population") + ylab("Number of Patients") +
+  xlab("Weeks since prevalence of 100/100,000 population") + ylab("Number of Patients") +
   labs(title="Number of Patients Waiting for an Inpatient Bed",subtitle="Note: Flat lines at 0 indicate no patients were delayed")+
   scale_x_continuous(breaks=seq(from=1,to=ceiling(max(QC_Sub$Day/7)),by=3))+
   theme(legend.title = element_blank()) +facet_wrap(~Type+Scenario)
