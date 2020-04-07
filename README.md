@@ -168,8 +168,8 @@ We utilize the United States population age bands per the [US Census Bureau](htt
 ### Acuity by age
 
 We utilize data released by the CDC as part of the [morbidity and mortality weekly report](https://www.cdc.gov/mmwr/volumes/69/wr/mm6912e2.htm) on March 18, 2020 for inpatient and ICU utilization by
-age band for symptomatic cases in the United States. Acuity by age is applied to the population age mix (above) and result in a weighted average of 19.3% of infections requiring hospitalization and
-5.8% of infections resulting in severe illness that requires an ICU bed as part of an inpatient stay.
+age band for symptomatic cases in the United States. Acuity by age is applied to the population age mix (above) and result in a weighted average of 18.4% of infections requiring hospitalization and
+5.3% of infections resulting in severe illness that requires an ICU bed as part of an inpatient stay.
 
 ### Length of stay
 
@@ -182,7 +182,8 @@ Length of stay estimates are highly variable. We extrapolated from those reporte
 different definitions for length of stay, broken out by severity and symptoms.
 
 Collectively, they indicate that severe cases have longer length of stay, and most ICU-bound patients start out in an AAC bed and eventually progress to more severe symptoms that require ICU care. We
-reflect this in the model with length of stay for moderate cases of 9.4-12.2 days, and for severe cases 12.5-16.2 days.
+reflect this in the model with length of stay for moderate cases of an average of 11 days with standard deviation of 5, and for severe cases of an average of 14 days with a standard deviation of 5. The model
+uses a lognormal distribution to model length of stay.
 
 ### Proportion of stay in ICU
 
