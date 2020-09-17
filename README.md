@@ -267,17 +267,17 @@ possible, given their level of acuity.
 ## Disclaimer
 
 The code in this repository was developed by IDM to support our research in disease transmission and managing epidemics. We’ve made it publicly available under the
-[Creative Commons Attribution-Noncommercial-ShareAlike 4.0 License] to provide others with a better understanding of our research and an opportunity to build upon it for their own work.
+[Creative Commons Attribution-ShareAlike 4.0 International License] to provide others with a better understanding of our research and an opportunity to build upon it for their own work.
 
 We make no representations that the code works as intended or that we will provide support, address issues that are found, or accept pull requests. You are welcome to create your own fork and modify
-the code to suit your own modeling needs as contemplated under the [Creative Commons Attribution-Noncommercial-ShareAlike 4.0 License].
+the code to suit your own modeling needs as contemplated under the [Creative Commons Attribution-ShareAlike 4.0 International License].
 
 ![Creative Commons License][license-img]
 
 
 <!-- References -->
 
-[Creative Commons Attribution-Noncommercial-ShareAlike 4.0 License]: ./LICENSE
+[Creative Commons Attribution-ShareAlike 4.0 International License]: ./LICENSE
 [ProjectTemplate]: http://projecttemplate.net
 [license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 
